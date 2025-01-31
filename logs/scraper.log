@@ -1,0 +1,1054 @@
+2025-01-31 21:01:04,249 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-01-31 21:01:04,475 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-01-31 21:01:06,124 - INFO - Scraping DoctorsET (@DoctorsET)...
+2025-01-31 21:01:06,124 - ERROR - Error in DoctorsET: GetHistoryRequest.__init__() missing 6 required positional arguments: 'offset_id', 'offset_date', 'add_offset', 'max_id', 'min_id', and 'hash'
+2025-01-31 21:01:06,363 - INFO - Scraping Chemed (@CheMed123)...
+2025-01-31 21:01:06,364 - ERROR - Error in Chemed: GetHistoryRequest.__init__() missing 6 required positional arguments: 'offset_id', 'offset_date', 'add_offset', 'max_id', 'min_id', and 'hash'
+2025-01-31 21:01:06,615 - INFO - Scraping lobelia4cosmetics (@lobelia4cosmetics)...
+2025-01-31 21:01:06,616 - ERROR - Error in lobelia4cosmetics: GetHistoryRequest.__init__() missing 6 required positional arguments: 'offset_id', 'offset_date', 'add_offset', 'max_id', 'min_id', and 'hash'
+2025-01-31 21:01:06,877 - INFO - Scraping yetenaweg (@yetenaweg)...
+2025-01-31 21:01:06,878 - ERROR - Error in yetenaweg: GetHistoryRequest.__init__() missing 6 required positional arguments: 'offset_id', 'offset_date', 'add_offset', 'max_id', 'min_id', and 'hash'
+2025-01-31 21:01:07,120 - INFO - Scraping EAHCI (@EAHCI)...
+2025-01-31 21:01:07,120 - ERROR - Error in EAHCI: GetHistoryRequest.__init__() missing 6 required positional arguments: 'offset_id', 'offset_date', 'add_offset', 'max_id', 'min_id', and 'hash'
+2025-01-31 21:01:07,121 - INFO - Disconnecting from 149.154.167.92:443/TcpFull...
+2025-01-31 21:01:07,122 - INFO - Disconnection from 149.154.167.92:443/TcpFull complete!
+2025-01-31 21:04:58,679 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-01-31 21:04:58,946 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-01-31 21:05:00,956 - INFO - Scraping DoctorsET (@DoctorsET)...
+2025-01-31 21:05:01,828 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:01,862 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:01,895 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:01,928 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:01,984 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:01,995 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,006 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,017 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,029 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,040 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,050 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,062 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,073 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,084 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,095 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,106 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,117 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,128 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,150 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,162 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,173 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,184 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,195 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,206 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,218 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,229 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,240 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,251 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,262 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,273 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,284 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,295 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,306 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,318 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,329 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,340 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,351 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,362 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,373 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,384 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,395 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,406 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,417 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,428 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,439 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,462 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,472 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,484 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,495 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,506 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,518 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,529 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,540 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,551 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,562 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,573 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,584 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,595 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,606 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,618 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,629 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,640 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,651 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,662 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,673 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,685 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,696 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,707 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,718 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,729 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,740 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,751 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,762 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,773 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,784 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,795 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,818 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,829 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,839 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,851 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,862 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,873 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,885 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,896 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,907 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,918 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,929 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,940 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,951 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,962 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,973 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,985 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:02,996 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:03,007 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:03,018 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:03,029 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:03,040 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:03,051 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:03,062 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:03,073 - INFO - Saved message from DoctorsET
+2025-01-31 21:05:03,310 - INFO - Scraping Chemed (@CheMed123)...
+2025-01-31 21:05:03,862 - INFO - Saved message from Chemed
+2025-01-31 21:05:03,864 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:05:04,507 - ERROR - Error in Chemed: 'MessageMediaPhoto' object has no attribute 'caption'
+2025-01-31 21:05:04,786 - INFO - Scraping lobelia4cosmetics (@lobelia4cosmetics)...
+2025-01-31 21:05:05,295 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,306 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,317 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,329 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,340 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,351 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,363 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,373 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,385 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,396 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,407 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,418 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,429 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,440 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,452 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,463 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,474 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,485 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,496 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,507 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,529 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,540 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,551 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,563 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,574 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,585 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,596 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,607 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,629 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,640 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,651 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,662 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,674 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,684 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,696 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,707 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,718 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,729 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,741 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,751 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,763 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,774 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,785 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,796 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,809 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,818 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,829 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,840 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,851 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,862 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,874 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,885 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,896 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,910 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,918 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,929 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,941 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,951 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,963 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,974 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,986 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:05,996 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:06,009 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:06,019 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:06,030 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:06,042 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:06,051 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:06,064 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:06,074 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:06,085 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:06,096 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:06,108 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:06,118 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:06,130 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:06,142 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:06,166 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:06,186 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:06,196 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:06,208 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:06,218 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:06,229 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:06,241 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:06,252 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:06,263 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:06,274 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:06,285 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:06,296 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:06,308 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:06,318 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:06,329 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:06,341 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:06,352 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:06,363 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:06,375 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:06,385 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:06,396 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:06,407 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:06,419 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:06,431 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:06,441 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:05:06,727 - INFO - Scraping yetenaweg (@yetenaweg)...
+2025-01-31 21:05:07,264 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:07,286 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:07,296 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:07,308 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:07,319 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:07,330 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:07,341 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:07,352 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:07,364 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:07,374 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:07,385 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:07,397 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:07,407 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:07,419 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:07,430 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:07,441 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:07,452 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:07,463 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:07,474 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:07,485 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:07,497 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:07,508 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:07,530 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:07,541 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:07,552 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:07,563 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:07,575 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:07,586 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:07,597 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:07,608 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:07,630 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:07,641 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:07,652 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:07,663 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:07,674 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:07,686 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:07,697 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:07,709 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:07,719 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:07,730 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:07,741 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:07,752 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:07,764 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:07,775 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:07,786 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:07,797 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:07,952 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:07,964 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:07,975 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:07,986 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:07,997 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:08,008 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:08,019 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:08,031 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:08,041 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:08,052 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:08,064 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:08,075 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:08,086 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:08,097 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:08,109 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:08,119 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:08,131 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:08,152 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:08,163 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:08,175 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:08,187 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:08,197 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:08,208 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:08,220 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:08,231 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:08,242 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:08,254 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:08,264 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:08,275 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:08,286 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:08,297 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:08,309 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:08,320 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:08,331 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:08,342 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:08,353 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:08,364 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:08,375 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:08,386 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:08,398 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:08,409 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:08,420 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:08,430 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:08,442 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:08,464 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:08,475 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:08,486 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:08,497 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:08,508 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:08,520 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:08,531 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:08,542 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:08,553 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:08,564 - INFO - Saved message from yetenaweg
+2025-01-31 21:05:08,831 - INFO - Scraping EAHCI (@EAHCI)...
+2025-01-31 21:05:09,731 - INFO - Saved message from EAHCI
+2025-01-31 21:05:09,742 - INFO - Saved message from EAHCI
+2025-01-31 21:05:09,753 - INFO - Saved message from EAHCI
+2025-01-31 21:05:09,765 - INFO - Saved message from EAHCI
+2025-01-31 21:05:09,776 - INFO - Saved message from EAHCI
+2025-01-31 21:05:09,787 - INFO - Saved message from EAHCI
+2025-01-31 21:05:09,798 - INFO - Saved message from EAHCI
+2025-01-31 21:05:09,809 - INFO - Saved message from EAHCI
+2025-01-31 21:05:09,820 - INFO - Saved message from EAHCI
+2025-01-31 21:05:09,831 - INFO - Saved message from EAHCI
+2025-01-31 21:05:09,842 - INFO - Saved message from EAHCI
+2025-01-31 21:05:09,853 - INFO - Saved message from EAHCI
+2025-01-31 21:05:09,864 - INFO - Saved message from EAHCI
+2025-01-31 21:05:09,875 - INFO - Saved message from EAHCI
+2025-01-31 21:05:09,886 - INFO - Saved message from EAHCI
+2025-01-31 21:05:09,897 - INFO - Saved message from EAHCI
+2025-01-31 21:05:09,909 - INFO - Saved message from EAHCI
+2025-01-31 21:05:09,920 - INFO - Saved message from EAHCI
+2025-01-31 21:05:09,931 - INFO - Saved message from EAHCI
+2025-01-31 21:05:09,942 - INFO - Saved message from EAHCI
+2025-01-31 21:05:09,953 - INFO - Saved message from EAHCI
+2025-01-31 21:05:09,965 - INFO - Saved message from EAHCI
+2025-01-31 21:05:09,975 - INFO - Saved message from EAHCI
+2025-01-31 21:05:09,987 - INFO - Saved message from EAHCI
+2025-01-31 21:05:09,998 - INFO - Saved message from EAHCI
+2025-01-31 21:05:10,009 - INFO - Saved message from EAHCI
+2025-01-31 21:05:10,020 - INFO - Saved message from EAHCI
+2025-01-31 21:05:10,031 - INFO - Saved message from EAHCI
+2025-01-31 21:05:10,042 - INFO - Saved message from EAHCI
+2025-01-31 21:05:10,053 - INFO - Saved message from EAHCI
+2025-01-31 21:05:10,065 - INFO - Saved message from EAHCI
+2025-01-31 21:05:10,075 - INFO - Saved message from EAHCI
+2025-01-31 21:05:10,086 - INFO - Saved message from EAHCI
+2025-01-31 21:05:10,098 - INFO - Saved message from EAHCI
+2025-01-31 21:05:10,109 - INFO - Saved message from EAHCI
+2025-01-31 21:05:10,120 - INFO - Saved message from EAHCI
+2025-01-31 21:05:10,131 - INFO - Saved message from EAHCI
+2025-01-31 21:05:10,153 - INFO - Saved message from EAHCI
+2025-01-31 21:05:10,165 - INFO - Saved message from EAHCI
+2025-01-31 21:05:10,175 - INFO - Saved message from EAHCI
+2025-01-31 21:05:10,187 - INFO - Saved message from EAHCI
+2025-01-31 21:05:10,198 - INFO - Saved message from EAHCI
+2025-01-31 21:05:10,209 - INFO - Saved message from EAHCI
+2025-01-31 21:05:10,220 - INFO - Saved message from EAHCI
+2025-01-31 21:05:10,231 - INFO - Saved message from EAHCI
+2025-01-31 21:05:10,243 - INFO - Saved message from EAHCI
+2025-01-31 21:05:10,254 - INFO - Saved message from EAHCI
+2025-01-31 21:05:10,459 - INFO - Saved message from EAHCI
+2025-01-31 21:05:10,487 - INFO - Saved message from EAHCI
+2025-01-31 21:05:10,499 - INFO - Saved message from EAHCI
+2025-01-31 21:05:10,510 - INFO - Saved message from EAHCI
+2025-01-31 21:05:10,520 - INFO - Saved message from EAHCI
+2025-01-31 21:05:10,532 - INFO - Saved message from EAHCI
+2025-01-31 21:05:10,543 - INFO - Saved message from EAHCI
+2025-01-31 21:05:10,554 - INFO - Saved message from EAHCI
+2025-01-31 21:05:10,565 - INFO - Saved message from EAHCI
+2025-01-31 21:05:10,576 - INFO - Saved message from EAHCI
+2025-01-31 21:05:10,588 - INFO - Saved message from EAHCI
+2025-01-31 21:05:10,743 - INFO - Saved message from EAHCI
+2025-01-31 21:05:10,754 - INFO - Saved message from EAHCI
+2025-01-31 21:05:10,765 - INFO - Saved message from EAHCI
+2025-01-31 21:05:10,777 - INFO - Saved message from EAHCI
+2025-01-31 21:05:10,787 - INFO - Saved message from EAHCI
+2025-01-31 21:05:10,810 - INFO - Saved message from EAHCI
+2025-01-31 21:05:10,820 - INFO - Saved message from EAHCI
+2025-01-31 21:05:10,831 - INFO - Saved message from EAHCI
+2025-01-31 21:05:10,842 - INFO - Saved message from EAHCI
+2025-01-31 21:05:10,854 - INFO - Saved message from EAHCI
+2025-01-31 21:05:10,865 - INFO - Saved message from EAHCI
+2025-01-31 21:05:10,877 - INFO - Saved message from EAHCI
+2025-01-31 21:05:10,888 - INFO - Saved message from EAHCI
+2025-01-31 21:05:10,899 - INFO - Saved message from EAHCI
+2025-01-31 21:05:11,054 - INFO - Saved message from EAHCI
+2025-01-31 21:05:11,065 - INFO - Saved message from EAHCI
+2025-01-31 21:05:11,077 - INFO - Saved message from EAHCI
+2025-01-31 21:05:11,088 - INFO - Saved message from EAHCI
+2025-01-31 21:05:11,099 - INFO - Saved message from EAHCI
+2025-01-31 21:05:11,110 - INFO - Saved message from EAHCI
+2025-01-31 21:05:11,121 - INFO - Saved message from EAHCI
+2025-01-31 21:05:11,132 - INFO - Saved message from EAHCI
+2025-01-31 21:05:11,144 - INFO - Saved message from EAHCI
+2025-01-31 21:05:11,154 - INFO - Saved message from EAHCI
+2025-01-31 21:05:11,166 - INFO - Saved message from EAHCI
+2025-01-31 21:05:11,177 - INFO - Saved message from EAHCI
+2025-01-31 21:05:11,188 - INFO - Saved message from EAHCI
+2025-01-31 21:05:11,199 - INFO - Saved message from EAHCI
+2025-01-31 21:05:11,366 - INFO - Saved message from EAHCI
+2025-01-31 21:05:11,377 - INFO - Saved message from EAHCI
+2025-01-31 21:05:11,388 - INFO - Saved message from EAHCI
+2025-01-31 21:05:11,399 - INFO - Saved message from EAHCI
+2025-01-31 21:05:11,410 - INFO - Saved message from EAHCI
+2025-01-31 21:05:11,421 - INFO - Saved message from EAHCI
+2025-01-31 21:05:11,432 - INFO - Saved message from EAHCI
+2025-01-31 21:05:11,443 - INFO - Saved message from EAHCI
+2025-01-31 21:05:11,455 - INFO - Saved message from EAHCI
+2025-01-31 21:05:11,466 - INFO - Saved message from EAHCI
+2025-01-31 21:05:11,477 - INFO - Saved message from EAHCI
+2025-01-31 21:05:11,488 - INFO - Saved message from EAHCI
+2025-01-31 21:05:11,499 - INFO - Saved message from EAHCI
+2025-01-31 21:05:11,654 - INFO - Saved message from EAHCI
+2025-01-31 21:05:11,655 - INFO - Disconnecting from 149.154.167.92:443/TcpFull...
+2025-01-31 21:05:11,656 - INFO - Disconnection from 149.154.167.92:443/TcpFull complete!
+2025-01-31 21:11:06,240 - INFO - Connecting to 149.154.167.92:443/TcpFull...
+2025-01-31 21:11:06,558 - INFO - Connection to 149.154.167.92:443/TcpFull complete!
+2025-01-31 21:11:08,581 - INFO - Scraping DoctorsET (@DoctorsET)...
+2025-01-31 21:11:09,453 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:09,465 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:09,476 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:09,487 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:09,497 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:09,508 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:09,520 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:09,531 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:09,542 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:09,553 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:09,564 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:09,576 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:09,587 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:09,598 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:09,609 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:09,620 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:09,631 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:09,643 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:09,654 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:09,665 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:09,675 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:09,687 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:09,698 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:09,709 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:09,720 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:09,732 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:09,743 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:09,754 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:09,765 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:09,776 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:09,787 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:09,798 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:09,810 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:09,821 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:09,832 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:09,843 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:09,854 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:09,865 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:09,876 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:09,887 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:09,898 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:09,910 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:09,921 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:09,932 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:09,943 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:09,954 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:09,965 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:09,976 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:09,987 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:09,998 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:10,010 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:10,020 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:10,032 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:10,043 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:10,054 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:10,065 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:10,076 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:10,087 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:10,099 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:10,110 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:10,121 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:10,132 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:10,143 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:10,154 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:10,166 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:10,221 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:10,232 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:10,243 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:10,254 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:10,266 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:10,276 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:10,288 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:10,300 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:10,310 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:10,321 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:10,332 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:10,343 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:10,354 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:10,365 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:10,377 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:10,387 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:10,399 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:10,410 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:10,421 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:10,432 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:10,443 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:10,454 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:10,465 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:10,477 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:10,487 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:10,499 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:10,510 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:10,521 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:10,532 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:10,543 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:10,554 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:10,565 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:10,577 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:10,587 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:10,599 - INFO - Saved message from DoctorsET
+2025-01-31 21:11:10,875 - INFO - Scraping Chemed (@CheMed123)...
+2025-01-31 21:11:11,443 - INFO - Saved message from Chemed
+2025-01-31 21:11:11,445 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:12,154 - INFO - Saved image data/images/Chemed/97.jpg from Chemed
+2025-01-31 21:11:12,165 - INFO - Saved message from Chemed
+2025-01-31 21:11:12,166 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:13,099 - INFO - Saved image data/images/Chemed/96.jpg from Chemed
+2025-01-31 21:11:13,110 - INFO - Saved message from Chemed
+2025-01-31 21:11:13,111 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:13,543 - INFO - Saved image data/images/Chemed/95.jpg from Chemed
+2025-01-31 21:11:13,554 - INFO - Saved message from Chemed
+2025-01-31 21:11:13,555 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:14,032 - INFO - Saved image data/images/Chemed/94.jpg from Chemed
+2025-01-31 21:11:14,043 - INFO - Saved message from Chemed
+2025-01-31 21:11:14,044 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:14,821 - INFO - Saved image data/images/Chemed/93.jpg from Chemed
+2025-01-31 21:11:14,832 - INFO - Saved message from Chemed
+2025-01-31 21:11:14,833 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:15,589 - INFO - Saved image data/images/Chemed/92.jpg from Chemed
+2025-01-31 21:11:15,599 - INFO - Saved message from Chemed
+2025-01-31 21:11:15,601 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:16,010 - INFO - Saved image data/images/Chemed/91.jpg from Chemed
+2025-01-31 21:11:16,021 - INFO - Saved message from Chemed
+2025-01-31 21:11:16,022 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:16,910 - INFO - Saved image data/images/Chemed/90.jpg from Chemed
+2025-01-31 21:11:16,922 - INFO - Saved message from Chemed
+2025-01-31 21:11:16,923 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:19,333 - INFO - Saved image data/images/Chemed/89.jpg from Chemed
+2025-01-31 21:11:19,344 - INFO - Saved message from Chemed
+2025-01-31 21:11:19,345 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:20,110 - INFO - Saved image data/images/Chemed/88.jpg from Chemed
+2025-01-31 21:11:20,122 - INFO - Saved message from Chemed
+2025-01-31 21:11:20,123 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:20,855 - INFO - Saved image data/images/Chemed/87.jpg from Chemed
+2025-01-31 21:11:20,867 - INFO - Saved message from Chemed
+2025-01-31 21:11:20,868 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:21,600 - INFO - Saved image data/images/Chemed/86.jpg from Chemed
+2025-01-31 21:11:21,611 - INFO - Saved message from Chemed
+2025-01-31 21:11:21,611 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:22,052 - INFO - Saved image data/images/Chemed/85.jpg from Chemed
+2025-01-31 21:11:22,100 - INFO - Saved message from Chemed
+2025-01-31 21:11:22,102 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:22,544 - INFO - Saved image data/images/Chemed/82.jpg from Chemed
+2025-01-31 21:11:22,555 - INFO - Saved message from Chemed
+2025-01-31 21:11:22,556 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:23,356 - INFO - Saved image data/images/Chemed/81.jpg from Chemed
+2025-01-31 21:11:23,366 - INFO - Saved message from Chemed
+2025-01-31 21:11:23,367 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:23,789 - INFO - Saved image data/images/Chemed/80.jpg from Chemed
+2025-01-31 21:11:23,800 - INFO - Saved message from Chemed
+2025-01-31 21:11:23,801 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:24,712 - INFO - Saved image data/images/Chemed/79.jpg from Chemed
+2025-01-31 21:11:24,723 - INFO - Saved message from Chemed
+2025-01-31 21:11:24,725 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:25,512 - INFO - Saved image data/images/Chemed/78.jpg from Chemed
+2025-01-31 21:11:25,523 - INFO - Saved message from Chemed
+2025-01-31 21:11:25,524 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:26,322 - INFO - Saved image data/images/Chemed/77.jpg from Chemed
+2025-01-31 21:11:26,333 - INFO - Saved message from Chemed
+2025-01-31 21:11:26,334 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:27,012 - INFO - Saved image data/images/Chemed/76.jpg from Chemed
+2025-01-31 21:11:27,023 - INFO - Saved message from Chemed
+2025-01-31 21:11:27,024 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:27,811 - INFO - Saved image data/images/Chemed/75.jpg from Chemed
+2025-01-31 21:11:27,823 - INFO - Saved message from Chemed
+2025-01-31 21:11:27,824 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:28,345 - INFO - Saved image data/images/Chemed/74.jpg from Chemed
+2025-01-31 21:11:28,356 - INFO - Saved message from Chemed
+2025-01-31 21:11:28,357 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:28,811 - INFO - Saved image data/images/Chemed/73.jpg from Chemed
+2025-01-31 21:11:28,823 - INFO - Saved message from Chemed
+2025-01-31 21:11:28,823 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:29,771 - INFO - Saved image data/images/Chemed/71.jpg from Chemed
+2025-01-31 21:11:29,778 - INFO - Saved message from Chemed
+2025-01-31 21:11:29,779 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:30,579 - INFO - Saved image data/images/Chemed/70.jpg from Chemed
+2025-01-31 21:11:30,590 - INFO - Saved message from Chemed
+2025-01-31 21:11:30,591 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:31,446 - INFO - Saved image data/images/Chemed/67.jpg from Chemed
+2025-01-31 21:11:31,457 - INFO - Saved message from Chemed
+2025-01-31 21:11:31,457 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:32,446 - INFO - Saved image data/images/Chemed/64.jpg from Chemed
+2025-01-31 21:11:32,457 - INFO - Saved message from Chemed
+2025-01-31 21:11:32,458 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:37,102 - INFO - Saved image data/images/Chemed/62.jpg from Chemed
+2025-01-31 21:11:37,113 - INFO - Saved message from Chemed
+2025-01-31 21:11:37,114 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:37,635 - INFO - Saved image data/images/Chemed/60.jpg from Chemed
+2025-01-31 21:11:37,646 - INFO - Saved message from Chemed
+2025-01-31 21:11:37,647 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:38,158 - INFO - Saved image data/images/Chemed/59.jpg from Chemed
+2025-01-31 21:11:38,169 - INFO - Saved message from Chemed
+2025-01-31 21:11:38,169 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:38,624 - INFO - Saved image data/images/Chemed/58.jpg from Chemed
+2025-01-31 21:11:38,636 - INFO - Saved message from Chemed
+2025-01-31 21:11:38,636 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:39,057 - INFO - Saved image data/images/Chemed/57.jpg from Chemed
+2025-01-31 21:11:39,068 - INFO - Saved message from Chemed
+2025-01-31 21:11:39,069 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:39,835 - INFO - Saved image data/images/Chemed/56.jpg from Chemed
+2025-01-31 21:11:39,846 - INFO - Saved message from Chemed
+2025-01-31 21:11:39,847 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:40,924 - INFO - Saved image data/images/Chemed/55.jpg from Chemed
+2025-01-31 21:11:40,936 - INFO - Saved message from Chemed
+2025-01-31 21:11:40,937 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:41,753 - INFO - Saved image data/images/Chemed/53.jpg from Chemed
+2025-01-31 21:11:41,786 - INFO - Saved message from Chemed
+2025-01-31 21:11:41,786 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:42,202 - INFO - Saved image data/images/Chemed/52.jpg from Chemed
+2025-01-31 21:11:42,214 - INFO - Saved message from Chemed
+2025-01-31 21:11:42,224 - INFO - Saved image data/images/Chemed/51.jpg from Chemed
+2025-01-31 21:11:42,235 - INFO - Saved message from Chemed
+2025-01-31 21:11:42,236 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:42,713 - INFO - Saved image data/images/Chemed/50.jpg from Chemed
+2025-01-31 21:11:42,747 - INFO - Saved message from Chemed
+2025-01-31 21:11:42,748 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:43,170 - INFO - Saved image data/images/Chemed/49.jpg from Chemed
+2025-01-31 21:11:43,180 - INFO - Saved message from Chemed
+2025-01-31 21:11:43,182 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:44,058 - INFO - Saved image data/images/Chemed/48.jpg from Chemed
+2025-01-31 21:11:44,069 - INFO - Saved message from Chemed
+2025-01-31 21:11:44,070 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:44,469 - INFO - Saved image data/images/Chemed/46.jpg from Chemed
+2025-01-31 21:11:44,480 - INFO - Saved message from Chemed
+2025-01-31 21:11:44,481 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:44,936 - INFO - Saved image data/images/Chemed/45.jpg from Chemed
+2025-01-31 21:11:44,947 - INFO - Saved message from Chemed
+2025-01-31 21:11:44,948 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:45,392 - INFO - Saved image data/images/Chemed/44.jpg from Chemed
+2025-01-31 21:11:45,403 - INFO - Saved message from Chemed
+2025-01-31 21:11:45,404 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:45,881 - INFO - Saved image data/images/Chemed/43.jpg from Chemed
+2025-01-31 21:11:45,892 - INFO - Saved message from Chemed
+2025-01-31 21:11:45,892 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:46,658 - INFO - Saved image data/images/Chemed/41.jpg from Chemed
+2025-01-31 21:11:46,670 - INFO - Saved message from Chemed
+2025-01-31 21:11:46,671 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:47,125 - INFO - Saved image data/images/Chemed/40.jpg from Chemed
+2025-01-31 21:11:47,136 - INFO - Saved message from Chemed
+2025-01-31 21:11:47,137 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:47,537 - INFO - Saved image data/images/Chemed/39.jpg from Chemed
+2025-01-31 21:11:47,548 - INFO - Saved message from Chemed
+2025-01-31 21:11:47,548 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:48,003 - INFO - Saved image data/images/Chemed/38.jpg from Chemed
+2025-01-31 21:11:48,015 - INFO - Saved message from Chemed
+2025-01-31 21:11:48,015 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:48,481 - INFO - Saved image data/images/Chemed/34.jpg from Chemed
+2025-01-31 21:11:48,492 - INFO - Saved message from Chemed
+2025-01-31 21:11:48,493 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:49,270 - INFO - Saved image data/images/Chemed/33.jpg from Chemed
+2025-01-31 21:11:49,282 - INFO - Saved message from Chemed
+2025-01-31 21:11:49,283 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:49,770 - INFO - Saved image data/images/Chemed/32.jpg from Chemed
+2025-01-31 21:11:49,781 - INFO - Saved message from Chemed
+2025-01-31 21:11:49,782 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:50,203 - INFO - Saved image data/images/Chemed/31.jpg from Chemed
+2025-01-31 21:11:50,214 - INFO - Saved message from Chemed
+2025-01-31 21:11:50,215 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:50,648 - INFO - Saved image data/images/Chemed/30.jpg from Chemed
+2025-01-31 21:11:50,704 - INFO - Saved message from Chemed
+2025-01-31 21:11:50,705 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:51,559 - INFO - Saved image data/images/Chemed/29.jpg from Chemed
+2025-01-31 21:11:51,571 - INFO - Saved message from Chemed
+2025-01-31 21:11:51,572 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:51,993 - INFO - Saved image data/images/Chemed/27.jpg from Chemed
+2025-01-31 21:11:52,003 - INFO - Saved message from Chemed
+2025-01-31 21:11:52,004 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:52,804 - INFO - Saved image data/images/Chemed/26.jpg from Chemed
+2025-01-31 21:11:52,814 - INFO - Saved message from Chemed
+2025-01-31 21:11:52,815 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:53,253 - INFO - Saved image data/images/Chemed/25.jpg from Chemed
+2025-01-31 21:11:53,304 - INFO - Saved message from Chemed
+2025-01-31 21:11:53,304 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:53,737 - INFO - Saved image data/images/Chemed/23.jpg from Chemed
+2025-01-31 21:11:53,749 - INFO - Saved message from Chemed
+2025-01-31 21:11:53,749 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:54,270 - INFO - Saved image data/images/Chemed/22.jpg from Chemed
+2025-01-31 21:11:54,281 - INFO - Saved message from Chemed
+2025-01-31 21:11:54,282 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:54,771 - INFO - Saved image data/images/Chemed/21.jpg from Chemed
+2025-01-31 21:11:54,782 - INFO - Saved message from Chemed
+2025-01-31 21:11:54,783 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:55,671 - INFO - Saved image data/images/Chemed/20.jpg from Chemed
+2025-01-31 21:11:55,682 - INFO - Saved message from Chemed
+2025-01-31 21:11:55,683 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:56,504 - INFO - Saved image data/images/Chemed/19.jpg from Chemed
+2025-01-31 21:11:56,515 - INFO - Saved message from Chemed
+2025-01-31 21:11:56,516 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:56,893 - INFO - Saved image data/images/Chemed/18.jpg from Chemed
+2025-01-31 21:11:56,904 - INFO - Saved message from Chemed
+2025-01-31 21:11:56,905 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:57,327 - INFO - Saved image data/images/Chemed/17.jpg from Chemed
+2025-01-31 21:11:57,338 - INFO - Saved message from Chemed
+2025-01-31 21:11:57,338 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:57,782 - INFO - Saved image data/images/Chemed/15.jpg from Chemed
+2025-01-31 21:11:57,793 - INFO - Saved message from Chemed
+2025-01-31 21:11:57,794 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:58,516 - INFO - Saved image data/images/Chemed/14.jpg from Chemed
+2025-01-31 21:11:58,526 - INFO - Saved message from Chemed
+2025-01-31 21:11:58,527 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:59,305 - INFO - Saved image data/images/Chemed/13.jpg from Chemed
+2025-01-31 21:11:59,316 - INFO - Saved message from Chemed
+2025-01-31 21:11:59,317 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:11:59,816 - INFO - Saved image data/images/Chemed/11.jpg from Chemed
+2025-01-31 21:11:59,828 - INFO - Saved message from Chemed
+2025-01-31 21:11:59,828 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:12:00,583 - INFO - Saved image data/images/Chemed/10.jpg from Chemed
+2025-01-31 21:12:00,595 - INFO - Saved message from Chemed
+2025-01-31 21:12:00,597 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:12:00,961 - INFO - Saved image data/images/Chemed/9.jpg from Chemed
+2025-01-31 21:12:00,972 - INFO - Saved message from Chemed
+2025-01-31 21:12:00,983 - INFO - Saved message from Chemed
+2025-01-31 21:12:00,995 - INFO - Saved message from Chemed
+2025-01-31 21:12:01,006 - INFO - Saved message from Chemed
+2025-01-31 21:12:01,007 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:12:01,367 - INFO - Saved image data/images/Chemed/3.jpg from Chemed
+2025-01-31 21:12:01,431 - INFO - Saved message from Chemed
+2025-01-31 21:12:01,433 - INFO - Starting direct file download in chunks of 131072 at 0, stride 131072
+2025-01-31 21:12:01,884 - INFO - Saved image data/images/Chemed/2.jpg from Chemed
+2025-01-31 21:12:01,895 - INFO - Saved message from Chemed
+2025-01-31 21:12:02,162 - INFO - Scraping lobelia4cosmetics (@lobelia4cosmetics)...
+2025-01-31 21:12:02,684 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:02,695 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:02,706 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:02,717 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:02,728 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:02,740 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:02,750 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:02,762 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:02,773 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:02,784 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:02,796 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:02,806 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:02,817 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:02,828 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:02,839 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:02,850 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:02,862 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:02,873 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:02,884 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:02,896 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:02,906 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:02,917 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:02,929 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:02,940 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:02,951 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:02,962 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:02,973 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:02,984 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:02,996 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:03,007 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:03,018 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:03,029 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:03,040 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:03,051 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:03,062 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:03,073 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:03,084 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:03,095 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:03,107 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:03,118 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:03,129 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:03,140 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:03,151 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:03,163 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:03,173 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:03,244 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:03,281 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:03,342 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:03,395 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:03,406 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:03,419 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:03,429 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:03,508 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:03,564 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:03,606 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:03,652 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:03,685 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:03,758 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:03,818 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:03,875 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:03,957 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:03,973 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:03,984 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:03,996 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:04,007 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:04,018 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:04,029 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:04,040 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:04,051 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:04,063 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:04,073 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:04,085 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:04,095 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:04,107 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:04,118 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:04,129 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:04,140 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:04,152 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:04,162 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:04,174 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:04,185 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:04,196 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:04,207 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:04,218 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:04,230 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:04,240 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:04,251 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:04,263 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:04,274 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:04,285 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:04,296 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:04,307 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:04,318 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:04,329 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:04,341 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:04,352 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:04,363 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:04,374 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:04,385 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:04,396 - INFO - Saved message from lobelia4cosmetics
+2025-01-31 21:12:04,900 - INFO - Scraping yetenaweg (@yetenaweg)...
+2025-01-31 21:12:05,563 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:05,574 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:05,585 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:05,596 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:05,607 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:05,619 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:05,630 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:05,641 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:05,652 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:05,663 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:05,674 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:05,685 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:05,696 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:05,708 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:05,718 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:05,729 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:05,740 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:05,752 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:05,763 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:05,774 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:05,785 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:05,797 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:05,808 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:05,819 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:05,830 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:05,841 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:05,852 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:05,864 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:05,874 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:05,885 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:05,897 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:05,908 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:05,918 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:05,930 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:05,940 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:05,952 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:05,963 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:05,974 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:05,985 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:05,996 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,008 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,019 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,030 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,041 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,052 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,063 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,074 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,085 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,097 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,108 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,119 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,130 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,141 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,152 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,163 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,174 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,185 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,196 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,207 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,218 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,229 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,240 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,251 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,263 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,274 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,285 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,296 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,307 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,318 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,330 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,340 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,352 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,363 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,374 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,386 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,397 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,408 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,419 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,430 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,441 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,452 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,463 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,474 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,485 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,496 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,507 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,518 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,530 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,541 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,552 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,563 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,574 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,586 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,596 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,618 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,630 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,641 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,652 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,663 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,674 - INFO - Saved message from yetenaweg
+2025-01-31 21:12:06,951 - INFO - Scraping EAHCI (@EAHCI)...
+2025-01-31 21:12:07,663 - INFO - Saved message from EAHCI
+2025-01-31 21:12:07,675 - INFO - Saved message from EAHCI
+2025-01-31 21:12:07,685 - INFO - Saved message from EAHCI
+2025-01-31 21:12:07,696 - INFO - Saved message from EAHCI
+2025-01-31 21:12:07,708 - INFO - Saved message from EAHCI
+2025-01-31 21:12:07,719 - INFO - Saved message from EAHCI
+2025-01-31 21:12:07,730 - INFO - Saved message from EAHCI
+2025-01-31 21:12:07,742 - INFO - Saved message from EAHCI
+2025-01-31 21:12:07,752 - INFO - Saved message from EAHCI
+2025-01-31 21:12:07,763 - INFO - Saved message from EAHCI
+2025-01-31 21:12:07,774 - INFO - Saved message from EAHCI
+2025-01-31 21:12:07,785 - INFO - Saved message from EAHCI
+2025-01-31 21:12:07,796 - INFO - Saved message from EAHCI
+2025-01-31 21:12:07,808 - INFO - Saved message from EAHCI
+2025-01-31 21:12:07,819 - INFO - Saved message from EAHCI
+2025-01-31 21:12:07,830 - INFO - Saved message from EAHCI
+2025-01-31 21:12:07,841 - INFO - Saved message from EAHCI
+2025-01-31 21:12:07,853 - INFO - Saved message from EAHCI
+2025-01-31 21:12:07,863 - INFO - Saved message from EAHCI
+2025-01-31 21:12:07,875 - INFO - Saved message from EAHCI
+2025-01-31 21:12:07,886 - INFO - Saved message from EAHCI
+2025-01-31 21:12:07,897 - INFO - Saved message from EAHCI
+2025-01-31 21:12:08,154 - INFO - Saved message from EAHCI
+2025-01-31 21:12:08,175 - INFO - Saved message from EAHCI
+2025-01-31 21:12:08,341 - INFO - Saved message from EAHCI
+2025-01-31 21:12:08,352 - INFO - Saved message from EAHCI
+2025-01-31 21:12:08,364 - INFO - Saved message from EAHCI
+2025-01-31 21:12:08,375 - INFO - Saved message from EAHCI
+2025-01-31 21:12:08,386 - INFO - Saved message from EAHCI
+2025-01-31 21:12:08,397 - INFO - Saved message from EAHCI
+2025-01-31 21:12:08,409 - INFO - Saved message from EAHCI
+2025-01-31 21:12:08,420 - INFO - Saved message from EAHCI
+2025-01-31 21:12:08,430 - INFO - Saved message from EAHCI
+2025-01-31 21:12:08,442 - INFO - Saved message from EAHCI
+2025-01-31 21:12:08,453 - INFO - Saved message from EAHCI
+2025-01-31 21:12:08,542 - INFO - Saved message from EAHCI
+2025-01-31 21:12:08,553 - INFO - Saved message from EAHCI
+2025-01-31 21:12:08,564 - INFO - Saved message from EAHCI
+2025-01-31 21:12:08,575 - INFO - Saved message from EAHCI
+2025-01-31 21:12:08,586 - INFO - Saved message from EAHCI
+2025-01-31 21:12:08,597 - INFO - Saved message from EAHCI
+2025-01-31 21:12:08,608 - INFO - Saved message from EAHCI
+2025-01-31 21:12:08,619 - INFO - Saved message from EAHCI
+2025-01-31 21:12:08,630 - INFO - Saved message from EAHCI
+2025-01-31 21:12:08,642 - INFO - Saved message from EAHCI
+2025-01-31 21:12:08,653 - INFO - Saved message from EAHCI
+2025-01-31 21:12:08,664 - INFO - Saved message from EAHCI
+2025-01-31 21:12:08,675 - INFO - Saved message from EAHCI
+2025-01-31 21:12:08,686 - INFO - Saved message from EAHCI
+2025-01-31 21:12:08,697 - INFO - Saved message from EAHCI
+2025-01-31 21:12:08,709 - INFO - Saved message from EAHCI
+2025-01-31 21:12:08,720 - INFO - Saved message from EAHCI
+2025-01-31 21:12:08,731 - INFO - Saved message from EAHCI
+2025-01-31 21:12:08,742 - INFO - Saved message from EAHCI
+2025-01-31 21:12:08,753 - INFO - Saved message from EAHCI
+2025-01-31 21:12:08,764 - INFO - Saved message from EAHCI
+2025-01-31 21:12:08,776 - INFO - Saved message from EAHCI
+2025-01-31 21:12:08,787 - INFO - Saved message from EAHCI
+2025-01-31 21:12:08,798 - INFO - Saved message from EAHCI
+2025-01-31 21:12:08,808 - INFO - Saved message from EAHCI
+2025-01-31 21:12:08,820 - INFO - Saved message from EAHCI
+2025-01-31 21:12:08,831 - INFO - Saved message from EAHCI
+2025-01-31 21:12:08,842 - INFO - Saved message from EAHCI
+2025-01-31 21:12:08,853 - INFO - Saved message from EAHCI
+2025-01-31 21:12:08,864 - INFO - Saved message from EAHCI
+2025-01-31 21:12:08,875 - INFO - Saved message from EAHCI
+2025-01-31 21:12:08,886 - INFO - Saved message from EAHCI
+2025-01-31 21:12:08,897 - INFO - Saved message from EAHCI
+2025-01-31 21:12:08,908 - INFO - Saved message from EAHCI
+2025-01-31 21:12:08,919 - INFO - Saved message from EAHCI
+2025-01-31 21:12:08,931 - INFO - Saved message from EAHCI
+2025-01-31 21:12:08,941 - INFO - Saved message from EAHCI
+2025-01-31 21:12:08,953 - INFO - Saved message from EAHCI
+2025-01-31 21:12:08,964 - INFO - Saved message from EAHCI
+2025-01-31 21:12:08,975 - INFO - Saved message from EAHCI
+2025-01-31 21:12:08,986 - INFO - Saved message from EAHCI
+2025-01-31 21:12:08,997 - INFO - Saved message from EAHCI
+2025-01-31 21:12:09,008 - INFO - Saved message from EAHCI
+2025-01-31 21:12:09,019 - INFO - Saved message from EAHCI
+2025-01-31 21:12:09,031 - INFO - Saved message from EAHCI
+2025-01-31 21:12:09,042 - INFO - Saved message from EAHCI
+2025-01-31 21:12:09,054 - INFO - Saved message from EAHCI
+2025-01-31 21:12:09,064 - INFO - Saved message from EAHCI
+2025-01-31 21:12:09,117 - INFO - Saved message from EAHCI
+2025-01-31 21:12:09,131 - INFO - Saved message from EAHCI
+2025-01-31 21:12:09,142 - INFO - Saved message from EAHCI
+2025-01-31 21:12:09,153 - INFO - Saved message from EAHCI
+2025-01-31 21:12:09,164 - INFO - Saved message from EAHCI
+2025-01-31 21:12:09,175 - INFO - Saved message from EAHCI
+2025-01-31 21:12:09,187 - INFO - Saved message from EAHCI
+2025-01-31 21:12:09,200 - INFO - Saved message from EAHCI
+2025-01-31 21:12:09,211 - INFO - Saved message from EAHCI
+2025-01-31 21:12:09,219 - INFO - Saved message from EAHCI
+2025-01-31 21:12:09,230 - INFO - Saved message from EAHCI
+2025-01-31 21:12:09,244 - INFO - Saved message from EAHCI
+2025-01-31 21:12:09,255 - INFO - Saved message from EAHCI
+2025-01-31 21:12:09,265 - INFO - Saved message from EAHCI
+2025-01-31 21:12:09,277 - INFO - Saved message from EAHCI
+2025-01-31 21:12:09,288 - INFO - Saved message from EAHCI
+2025-01-31 21:12:09,297 - INFO - Saved message from EAHCI
+2025-01-31 21:12:09,298 - INFO - Disconnecting from 149.154.167.92:443/TcpFull...
+2025-01-31 21:12:09,299 - INFO - Disconnection from 149.154.167.92:443/TcpFull complete!

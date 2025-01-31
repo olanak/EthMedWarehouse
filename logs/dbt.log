@@ -1,0 +1,30 @@
+[0m21:36:17.319043 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x703b44e43a40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x703b44c6b9b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x703b44e43080>]}
+
+
+============================== 21:36:17.327050 | 1ddebd0b-715b-40e8-b176-e2c74ec8c2c4 ==============================
+[0m21:36:17.327050 [info ] [MainThread]: Running with dbt=1.9.2
+[0m21:36:17.328583 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': '/home/olana/.dbt', 'debug': 'False', 'version_check': 'True', 'log_path': 'logs', 'warn_error': 'None', 'fail_fast': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptions(include=[], exclude=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt init medical_warehouse', 'send_anonymous_usage_stats': 'True'}
+[0m21:36:17.347227 [debug] [MainThread]: Starter project path: /home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/dbt/include/starter_project
+[0m21:36:17.354415 [info ] [MainThread]: 
+Your new dbt project "medical_warehouse" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m21:36:17.355928 [info ] [MainThread]: Setting up your profile.
+[0m21:38:24.827215 [info ] [MainThread]: Profile medical_warehouse written to /home/olana/.dbt/profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m21:38:24.830024 [debug] [MainThread]: Resource report: {"command_name": "init", "command_success": true, "command_wall_clock_time": 127.71542, "process_in_blocks": "0", "process_kernel_time": 0.293189, "process_mem_max_rss": "93920", "process_out_blocks": "80", "process_user_time": 3.243038}
+[0m21:38:24.831110 [debug] [MainThread]: Command `dbt init` succeeded at 21:38:24.830872 after 127.72 seconds
+[0m21:38:24.832080 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x703b4423b9b0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x703b443f5b80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x703b441cd730>]}
+[0m21:38:24.832988 [debug] [MainThread]: Flushing usage events
+[0m21:38:31.322267 [debug] [MainThread]: An error was encountered while trying to flush usage events

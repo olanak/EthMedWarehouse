@@ -1,0 +1,23 @@
+version: 2
+
+sources:
+  - name: public
+    database: ethio_medical  # Match your DB name in .env
+    schema: public
+    tables:
+      - name: raw_messages   # Must match your PostgreSQL table name
+      - name: raw_images     # Must match your PostgreSQL table name
+
+models:
+  - name: stg_messages
+    columns:
+      - name: message_hash
+        tests:
+          - unique
+          - not_null
+
+  - name: stg_images
+    columns:
+      - name: valid_image_path
+        tests:
+          - not_null

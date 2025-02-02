@@ -1,0 +1,1761 @@
+2025-02-02 20:27:21,775 - INFO - Connected to PostgreSQL
+2025-02-02 20:27:21,857 - INFO - Found 72 images to process
+2025-02-02 20:27:21,857 - INFO - Processing image: data/images/Chemed/97.jpg
+2025-02-02 20:27:23,238 - INFO - Processing image: data/images/Chemed/96.jpg
+2025-02-02 20:27:23,909 - ERROR - Failed to process data/images/Chemed/96.jpg: invalid input for query argument $4: {'xmin': 493.2513427734375, 'ymin': 653.... (expected str, got dict)
+Traceback (most recent call last):
+  File "asyncpg/protocol/prepared_stmt.pyx", line 175, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+  File "asyncpg/protocol/codecs/base.pyx", line 227, in asyncpg.protocol.protocol.Codec.encode
+  File "asyncpg/protocol/codecs/base.pyx", line 129, in asyncpg.protocol.protocol.Codec.encode_scalar
+  File "asyncpg/pgproto/./codecs/json.pyx", line 16, in asyncpg.pgproto.pgproto.jsonb_encode
+  File "asyncpg/pgproto/./codecs/text.pyx", line 12, in asyncpg.pgproto.pgproto.as_pg_string_and_size
+TypeError: expected str, got dict
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/scripts/detect.py", line 56, in detect_objects
+    await conn.execute("""
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 352, in execute
+    _, status, _ = await self._execute(
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 185, in bind_execute
+  File "asyncpg/protocol/prepared_stmt.pyx", line 204, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+asyncpg.exceptions.DataError: invalid input for query argument $4: {'xmin': 493.2513427734375, 'ymin': 653.... (expected str, got dict)
+2025-02-02 20:27:23,910 - INFO - Processing image: data/images/Chemed/95.jpg
+2025-02-02 20:27:24,584 - ERROR - Failed to process data/images/Chemed/95.jpg: invalid input for query argument $4: {'xmin': 14.011018753051758, 'ymin': 248... (expected str, got dict)
+Traceback (most recent call last):
+  File "asyncpg/protocol/prepared_stmt.pyx", line 175, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+  File "asyncpg/protocol/codecs/base.pyx", line 227, in asyncpg.protocol.protocol.Codec.encode
+  File "asyncpg/protocol/codecs/base.pyx", line 129, in asyncpg.protocol.protocol.Codec.encode_scalar
+  File "asyncpg/pgproto/./codecs/json.pyx", line 16, in asyncpg.pgproto.pgproto.jsonb_encode
+  File "asyncpg/pgproto/./codecs/text.pyx", line 12, in asyncpg.pgproto.pgproto.as_pg_string_and_size
+TypeError: expected str, got dict
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/scripts/detect.py", line 56, in detect_objects
+    await conn.execute("""
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 352, in execute
+    _, status, _ = await self._execute(
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 185, in bind_execute
+  File "asyncpg/protocol/prepared_stmt.pyx", line 204, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+asyncpg.exceptions.DataError: invalid input for query argument $4: {'xmin': 14.011018753051758, 'ymin': 248... (expected str, got dict)
+2025-02-02 20:27:24,586 - INFO - Processing image: data/images/Chemed/94.jpg
+2025-02-02 20:27:25,260 - ERROR - Failed to process data/images/Chemed/94.jpg: invalid input for query argument $4: {'xmin': 3.5806331634521484, 'ymin': 628... (expected str, got dict)
+Traceback (most recent call last):
+  File "asyncpg/protocol/prepared_stmt.pyx", line 175, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+  File "asyncpg/protocol/codecs/base.pyx", line 227, in asyncpg.protocol.protocol.Codec.encode
+  File "asyncpg/protocol/codecs/base.pyx", line 129, in asyncpg.protocol.protocol.Codec.encode_scalar
+  File "asyncpg/pgproto/./codecs/json.pyx", line 16, in asyncpg.pgproto.pgproto.jsonb_encode
+  File "asyncpg/pgproto/./codecs/text.pyx", line 12, in asyncpg.pgproto.pgproto.as_pg_string_and_size
+TypeError: expected str, got dict
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/scripts/detect.py", line 56, in detect_objects
+    await conn.execute("""
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 352, in execute
+    _, status, _ = await self._execute(
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 185, in bind_execute
+  File "asyncpg/protocol/prepared_stmt.pyx", line 204, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+asyncpg.exceptions.DataError: invalid input for query argument $4: {'xmin': 3.5806331634521484, 'ymin': 628... (expected str, got dict)
+2025-02-02 20:27:25,261 - INFO - Processing image: data/images/Chemed/93.jpg
+2025-02-02 20:27:25,921 - ERROR - Failed to process data/images/Chemed/93.jpg: invalid input for query argument $4: {'xmin': 10.941275596618652, 'ymin': 269... (expected str, got dict)
+Traceback (most recent call last):
+  File "asyncpg/protocol/prepared_stmt.pyx", line 175, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+  File "asyncpg/protocol/codecs/base.pyx", line 227, in asyncpg.protocol.protocol.Codec.encode
+  File "asyncpg/protocol/codecs/base.pyx", line 129, in asyncpg.protocol.protocol.Codec.encode_scalar
+  File "asyncpg/pgproto/./codecs/json.pyx", line 16, in asyncpg.pgproto.pgproto.jsonb_encode
+  File "asyncpg/pgproto/./codecs/text.pyx", line 12, in asyncpg.pgproto.pgproto.as_pg_string_and_size
+TypeError: expected str, got dict
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/scripts/detect.py", line 56, in detect_objects
+    await conn.execute("""
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 352, in execute
+    _, status, _ = await self._execute(
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 185, in bind_execute
+  File "asyncpg/protocol/prepared_stmt.pyx", line 204, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+asyncpg.exceptions.DataError: invalid input for query argument $4: {'xmin': 10.941275596618652, 'ymin': 269... (expected str, got dict)
+2025-02-02 20:27:25,921 - INFO - Processing image: data/images/Chemed/92.jpg
+2025-02-02 20:27:26,609 - ERROR - Failed to process data/images/Chemed/92.jpg: invalid input for query argument $4: {'xmin': 213.3236846923828, 'ymin': 627.... (expected str, got dict)
+Traceback (most recent call last):
+  File "asyncpg/protocol/prepared_stmt.pyx", line 175, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+  File "asyncpg/protocol/codecs/base.pyx", line 227, in asyncpg.protocol.protocol.Codec.encode
+  File "asyncpg/protocol/codecs/base.pyx", line 129, in asyncpg.protocol.protocol.Codec.encode_scalar
+  File "asyncpg/pgproto/./codecs/json.pyx", line 16, in asyncpg.pgproto.pgproto.jsonb_encode
+  File "asyncpg/pgproto/./codecs/text.pyx", line 12, in asyncpg.pgproto.pgproto.as_pg_string_and_size
+TypeError: expected str, got dict
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/scripts/detect.py", line 56, in detect_objects
+    await conn.execute("""
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 352, in execute
+    _, status, _ = await self._execute(
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 185, in bind_execute
+  File "asyncpg/protocol/prepared_stmt.pyx", line 204, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+asyncpg.exceptions.DataError: invalid input for query argument $4: {'xmin': 213.3236846923828, 'ymin': 627.... (expected str, got dict)
+2025-02-02 20:27:26,611 - INFO - Processing image: data/images/Chemed/91.jpg
+2025-02-02 20:27:27,395 - INFO - Processing image: data/images/Chemed/90.jpg
+2025-02-02 20:27:28,114 - INFO - Processing image: data/images/Chemed/89.jpg
+2025-02-02 20:27:28,360 - ERROR - Failed to process data/images/Chemed/89.jpg: cannot identify image file 'data/images/Chemed/89.jpg'
+Traceback (most recent call last):
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/scripts/detect.py", line 51, in detect_objects
+    results = model(Image.open(image_path))
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/PIL/Image.py", line 3532, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file 'data/images/Chemed/89.jpg'
+2025-02-02 20:27:28,364 - INFO - Processing image: data/images/Chemed/88.jpg
+2025-02-02 20:27:29,041 - INFO - Processing image: data/images/Chemed/87.jpg
+2025-02-02 20:27:29,662 - INFO - Processing image: data/images/Chemed/86.jpg
+2025-02-02 20:27:30,306 - ERROR - Failed to process data/images/Chemed/86.jpg: invalid input for query argument $4: {'xmin': 8.308084487915039, 'ymin': 226.... (expected str, got dict)
+Traceback (most recent call last):
+  File "asyncpg/protocol/prepared_stmt.pyx", line 175, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+  File "asyncpg/protocol/codecs/base.pyx", line 227, in asyncpg.protocol.protocol.Codec.encode
+  File "asyncpg/protocol/codecs/base.pyx", line 129, in asyncpg.protocol.protocol.Codec.encode_scalar
+  File "asyncpg/pgproto/./codecs/json.pyx", line 16, in asyncpg.pgproto.pgproto.jsonb_encode
+  File "asyncpg/pgproto/./codecs/text.pyx", line 12, in asyncpg.pgproto.pgproto.as_pg_string_and_size
+TypeError: expected str, got dict
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/scripts/detect.py", line 56, in detect_objects
+    await conn.execute("""
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 352, in execute
+    _, status, _ = await self._execute(
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 185, in bind_execute
+  File "asyncpg/protocol/prepared_stmt.pyx", line 204, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+asyncpg.exceptions.DataError: invalid input for query argument $4: {'xmin': 8.308084487915039, 'ymin': 226.... (expected str, got dict)
+2025-02-02 20:27:30,306 - INFO - Processing image: data/images/Chemed/85.jpg
+2025-02-02 20:27:31,035 - INFO - Processing image: data/images/Chemed/82.jpg
+2025-02-02 20:27:31,651 - ERROR - Failed to process data/images/Chemed/82.jpg: invalid input for query argument $4: {'xmin': 624.342041015625, 'ymin': 472.7... (expected str, got dict)
+Traceback (most recent call last):
+  File "asyncpg/protocol/prepared_stmt.pyx", line 175, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+  File "asyncpg/protocol/codecs/base.pyx", line 227, in asyncpg.protocol.protocol.Codec.encode
+  File "asyncpg/protocol/codecs/base.pyx", line 129, in asyncpg.protocol.protocol.Codec.encode_scalar
+  File "asyncpg/pgproto/./codecs/json.pyx", line 16, in asyncpg.pgproto.pgproto.jsonb_encode
+  File "asyncpg/pgproto/./codecs/text.pyx", line 12, in asyncpg.pgproto.pgproto.as_pg_string_and_size
+TypeError: expected str, got dict
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/scripts/detect.py", line 56, in detect_objects
+    await conn.execute("""
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 352, in execute
+    _, status, _ = await self._execute(
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 185, in bind_execute
+  File "asyncpg/protocol/prepared_stmt.pyx", line 204, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+asyncpg.exceptions.DataError: invalid input for query argument $4: {'xmin': 624.342041015625, 'ymin': 472.7... (expected str, got dict)
+2025-02-02 20:27:31,652 - INFO - Processing image: data/images/Chemed/81.jpg
+2025-02-02 20:27:32,286 - ERROR - Failed to process data/images/Chemed/81.jpg: invalid input for query argument $4: {'xmin': 52.782005310058594, 'ymin': 632... (expected str, got dict)
+Traceback (most recent call last):
+  File "asyncpg/protocol/prepared_stmt.pyx", line 175, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+  File "asyncpg/protocol/codecs/base.pyx", line 227, in asyncpg.protocol.protocol.Codec.encode
+  File "asyncpg/protocol/codecs/base.pyx", line 129, in asyncpg.protocol.protocol.Codec.encode_scalar
+  File "asyncpg/pgproto/./codecs/json.pyx", line 16, in asyncpg.pgproto.pgproto.jsonb_encode
+  File "asyncpg/pgproto/./codecs/text.pyx", line 12, in asyncpg.pgproto.pgproto.as_pg_string_and_size
+TypeError: expected str, got dict
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/scripts/detect.py", line 56, in detect_objects
+    await conn.execute("""
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 352, in execute
+    _, status, _ = await self._execute(
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 185, in bind_execute
+  File "asyncpg/protocol/prepared_stmt.pyx", line 204, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+asyncpg.exceptions.DataError: invalid input for query argument $4: {'xmin': 52.782005310058594, 'ymin': 632... (expected str, got dict)
+2025-02-02 20:27:32,287 - INFO - Processing image: data/images/Chemed/80.jpg
+2025-02-02 20:27:32,879 - ERROR - Failed to process data/images/Chemed/80.jpg: invalid input for query argument $4: {'xmin': 57.74369430541992, 'ymin': 159.... (expected str, got dict)
+Traceback (most recent call last):
+  File "asyncpg/protocol/prepared_stmt.pyx", line 175, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+  File "asyncpg/protocol/codecs/base.pyx", line 227, in asyncpg.protocol.protocol.Codec.encode
+  File "asyncpg/protocol/codecs/base.pyx", line 129, in asyncpg.protocol.protocol.Codec.encode_scalar
+  File "asyncpg/pgproto/./codecs/json.pyx", line 16, in asyncpg.pgproto.pgproto.jsonb_encode
+  File "asyncpg/pgproto/./codecs/text.pyx", line 12, in asyncpg.pgproto.pgproto.as_pg_string_and_size
+TypeError: expected str, got dict
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/scripts/detect.py", line 56, in detect_objects
+    await conn.execute("""
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 352, in execute
+    _, status, _ = await self._execute(
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 185, in bind_execute
+  File "asyncpg/protocol/prepared_stmt.pyx", line 204, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+asyncpg.exceptions.DataError: invalid input for query argument $4: {'xmin': 57.74369430541992, 'ymin': 159.... (expected str, got dict)
+2025-02-02 20:27:32,942 - INFO - Processing image: data/images/Chemed/79.jpg
+2025-02-02 20:27:33,616 - INFO - Processing image: data/images/Chemed/78.jpg
+2025-02-02 20:27:34,161 - ERROR - Failed to process data/images/Chemed/78.jpg: invalid input for query argument $4: {'xmin': 435.715576171875, 'ymin': 753.8... (expected str, got dict)
+Traceback (most recent call last):
+  File "asyncpg/protocol/prepared_stmt.pyx", line 175, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+  File "asyncpg/protocol/codecs/base.pyx", line 227, in asyncpg.protocol.protocol.Codec.encode
+  File "asyncpg/protocol/codecs/base.pyx", line 129, in asyncpg.protocol.protocol.Codec.encode_scalar
+  File "asyncpg/pgproto/./codecs/json.pyx", line 16, in asyncpg.pgproto.pgproto.jsonb_encode
+  File "asyncpg/pgproto/./codecs/text.pyx", line 12, in asyncpg.pgproto.pgproto.as_pg_string_and_size
+TypeError: expected str, got dict
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/scripts/detect.py", line 56, in detect_objects
+    await conn.execute("""
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 352, in execute
+    _, status, _ = await self._execute(
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 185, in bind_execute
+  File "asyncpg/protocol/prepared_stmt.pyx", line 204, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+asyncpg.exceptions.DataError: invalid input for query argument $4: {'xmin': 435.715576171875, 'ymin': 753.8... (expected str, got dict)
+2025-02-02 20:27:34,162 - INFO - Processing image: data/images/Chemed/77.jpg
+2025-02-02 20:27:34,813 - ERROR - Failed to process data/images/Chemed/77.jpg: invalid input for query argument $4: {'xmin': 757.9234008789062, 'ymin': 348.... (expected str, got dict)
+Traceback (most recent call last):
+  File "asyncpg/protocol/prepared_stmt.pyx", line 175, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+  File "asyncpg/protocol/codecs/base.pyx", line 227, in asyncpg.protocol.protocol.Codec.encode
+  File "asyncpg/protocol/codecs/base.pyx", line 129, in asyncpg.protocol.protocol.Codec.encode_scalar
+  File "asyncpg/pgproto/./codecs/json.pyx", line 16, in asyncpg.pgproto.pgproto.jsonb_encode
+  File "asyncpg/pgproto/./codecs/text.pyx", line 12, in asyncpg.pgproto.pgproto.as_pg_string_and_size
+TypeError: expected str, got dict
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/scripts/detect.py", line 56, in detect_objects
+    await conn.execute("""
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 352, in execute
+    _, status, _ = await self._execute(
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 185, in bind_execute
+  File "asyncpg/protocol/prepared_stmt.pyx", line 204, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+asyncpg.exceptions.DataError: invalid input for query argument $4: {'xmin': 757.9234008789062, 'ymin': 348.... (expected str, got dict)
+2025-02-02 20:27:34,815 - INFO - Processing image: data/images/Chemed/76.jpg
+2025-02-02 20:27:35,325 - ERROR - Failed to process data/images/Chemed/76.jpg: invalid input for query argument $4: {'xmin': 117.06103515625, 'ymin': 231.40... (expected str, got dict)
+Traceback (most recent call last):
+  File "asyncpg/protocol/prepared_stmt.pyx", line 175, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+  File "asyncpg/protocol/codecs/base.pyx", line 227, in asyncpg.protocol.protocol.Codec.encode
+  File "asyncpg/protocol/codecs/base.pyx", line 129, in asyncpg.protocol.protocol.Codec.encode_scalar
+  File "asyncpg/pgproto/./codecs/json.pyx", line 16, in asyncpg.pgproto.pgproto.jsonb_encode
+  File "asyncpg/pgproto/./codecs/text.pyx", line 12, in asyncpg.pgproto.pgproto.as_pg_string_and_size
+TypeError: expected str, got dict
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/scripts/detect.py", line 56, in detect_objects
+    await conn.execute("""
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 352, in execute
+    _, status, _ = await self._execute(
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 185, in bind_execute
+  File "asyncpg/protocol/prepared_stmt.pyx", line 204, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+asyncpg.exceptions.DataError: invalid input for query argument $4: {'xmin': 117.06103515625, 'ymin': 231.40... (expected str, got dict)
+2025-02-02 20:27:35,326 - INFO - Processing image: data/images/Chemed/75.jpg
+2025-02-02 20:27:35,970 - ERROR - Failed to process data/images/Chemed/75.jpg: invalid input for query argument $4: {'xmin': 620.908935546875, 'ymin': 400.8... (expected str, got dict)
+Traceback (most recent call last):
+  File "asyncpg/protocol/prepared_stmt.pyx", line 175, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+  File "asyncpg/protocol/codecs/base.pyx", line 227, in asyncpg.protocol.protocol.Codec.encode
+  File "asyncpg/protocol/codecs/base.pyx", line 129, in asyncpg.protocol.protocol.Codec.encode_scalar
+  File "asyncpg/pgproto/./codecs/json.pyx", line 16, in asyncpg.pgproto.pgproto.jsonb_encode
+  File "asyncpg/pgproto/./codecs/text.pyx", line 12, in asyncpg.pgproto.pgproto.as_pg_string_and_size
+TypeError: expected str, got dict
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/scripts/detect.py", line 56, in detect_objects
+    await conn.execute("""
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 352, in execute
+    _, status, _ = await self._execute(
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 185, in bind_execute
+  File "asyncpg/protocol/prepared_stmt.pyx", line 204, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+asyncpg.exceptions.DataError: invalid input for query argument $4: {'xmin': 620.908935546875, 'ymin': 400.8... (expected str, got dict)
+2025-02-02 20:27:35,971 - INFO - Processing image: data/images/Chemed/74.jpg
+2025-02-02 20:27:36,619 - INFO - Processing image: data/images/Chemed/73.jpg
+2025-02-02 20:27:36,700 - ERROR - Failed to process data/images/Chemed/73.jpg: cannot identify image file 'data/images/Chemed/73.jpg'
+Traceback (most recent call last):
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/scripts/detect.py", line 51, in detect_objects
+    results = model(Image.open(image_path))
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/PIL/Image.py", line 3532, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file 'data/images/Chemed/73.jpg'
+2025-02-02 20:27:36,701 - INFO - Processing image: data/images/Chemed/71.jpg
+2025-02-02 20:27:37,282 - ERROR - Failed to process data/images/Chemed/71.jpg: invalid input for query argument $4: {'xmin': 165.9373016357422, 'ymin': 345.... (expected str, got dict)
+Traceback (most recent call last):
+  File "asyncpg/protocol/prepared_stmt.pyx", line 175, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+  File "asyncpg/protocol/codecs/base.pyx", line 227, in asyncpg.protocol.protocol.Codec.encode
+  File "asyncpg/protocol/codecs/base.pyx", line 129, in asyncpg.protocol.protocol.Codec.encode_scalar
+  File "asyncpg/pgproto/./codecs/json.pyx", line 16, in asyncpg.pgproto.pgproto.jsonb_encode
+  File "asyncpg/pgproto/./codecs/text.pyx", line 12, in asyncpg.pgproto.pgproto.as_pg_string_and_size
+TypeError: expected str, got dict
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/scripts/detect.py", line 56, in detect_objects
+    await conn.execute("""
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 352, in execute
+    _, status, _ = await self._execute(
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 185, in bind_execute
+  File "asyncpg/protocol/prepared_stmt.pyx", line 204, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+asyncpg.exceptions.DataError: invalid input for query argument $4: {'xmin': 165.9373016357422, 'ymin': 345.... (expected str, got dict)
+2025-02-02 20:27:37,283 - INFO - Processing image: data/images/Chemed/70.jpg
+2025-02-02 20:27:37,754 - ERROR - Failed to process data/images/Chemed/70.jpg: invalid input for query argument $4: {'xmin': 477.86236572265625, 'ymin': 531... (expected str, got dict)
+Traceback (most recent call last):
+  File "asyncpg/protocol/prepared_stmt.pyx", line 175, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+  File "asyncpg/protocol/codecs/base.pyx", line 227, in asyncpg.protocol.protocol.Codec.encode
+  File "asyncpg/protocol/codecs/base.pyx", line 129, in asyncpg.protocol.protocol.Codec.encode_scalar
+  File "asyncpg/pgproto/./codecs/json.pyx", line 16, in asyncpg.pgproto.pgproto.jsonb_encode
+  File "asyncpg/pgproto/./codecs/text.pyx", line 12, in asyncpg.pgproto.pgproto.as_pg_string_and_size
+TypeError: expected str, got dict
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/scripts/detect.py", line 56, in detect_objects
+    await conn.execute("""
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 352, in execute
+    _, status, _ = await self._execute(
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 185, in bind_execute
+  File "asyncpg/protocol/prepared_stmt.pyx", line 204, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+asyncpg.exceptions.DataError: invalid input for query argument $4: {'xmin': 477.86236572265625, 'ymin': 531... (expected str, got dict)
+2025-02-02 20:27:37,755 - INFO - Processing image: data/images/Chemed/67.jpg
+2025-02-02 20:27:38,512 - ERROR - Failed to process data/images/Chemed/67.jpg: invalid input for query argument $4: {'xmin': 75.14417266845703, 'ymin': 833.... (expected str, got dict)
+Traceback (most recent call last):
+  File "asyncpg/protocol/prepared_stmt.pyx", line 175, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+  File "asyncpg/protocol/codecs/base.pyx", line 227, in asyncpg.protocol.protocol.Codec.encode
+  File "asyncpg/protocol/codecs/base.pyx", line 129, in asyncpg.protocol.protocol.Codec.encode_scalar
+  File "asyncpg/pgproto/./codecs/json.pyx", line 16, in asyncpg.pgproto.pgproto.jsonb_encode
+  File "asyncpg/pgproto/./codecs/text.pyx", line 12, in asyncpg.pgproto.pgproto.as_pg_string_and_size
+TypeError: expected str, got dict
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/scripts/detect.py", line 56, in detect_objects
+    await conn.execute("""
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 352, in execute
+    _, status, _ = await self._execute(
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 185, in bind_execute
+  File "asyncpg/protocol/prepared_stmt.pyx", line 204, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+asyncpg.exceptions.DataError: invalid input for query argument $4: {'xmin': 75.14417266845703, 'ymin': 833.... (expected str, got dict)
+2025-02-02 20:27:38,513 - INFO - Processing image: data/images/Chemed/64.jpg
+2025-02-02 20:27:39,358 - ERROR - Failed to process data/images/Chemed/64.jpg: invalid input for query argument $4: {'xmin': 17.39523696899414, 'ymin': 603.... (expected str, got dict)
+Traceback (most recent call last):
+  File "asyncpg/protocol/prepared_stmt.pyx", line 175, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+  File "asyncpg/protocol/codecs/base.pyx", line 227, in asyncpg.protocol.protocol.Codec.encode
+  File "asyncpg/protocol/codecs/base.pyx", line 129, in asyncpg.protocol.protocol.Codec.encode_scalar
+  File "asyncpg/pgproto/./codecs/json.pyx", line 16, in asyncpg.pgproto.pgproto.jsonb_encode
+  File "asyncpg/pgproto/./codecs/text.pyx", line 12, in asyncpg.pgproto.pgproto.as_pg_string_and_size
+TypeError: expected str, got dict
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/scripts/detect.py", line 56, in detect_objects
+    await conn.execute("""
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 352, in execute
+    _, status, _ = await self._execute(
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 185, in bind_execute
+  File "asyncpg/protocol/prepared_stmt.pyx", line 204, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+asyncpg.exceptions.DataError: invalid input for query argument $4: {'xmin': 17.39523696899414, 'ymin': 603.... (expected str, got dict)
+2025-02-02 20:27:39,359 - INFO - Processing image: data/images/Chemed/62.jpg
+2025-02-02 20:27:39,382 - ERROR - Failed to process data/images/Chemed/62.jpg: cannot identify image file 'data/images/Chemed/62.jpg'
+Traceback (most recent call last):
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/scripts/detect.py", line 51, in detect_objects
+    results = model(Image.open(image_path))
+                    ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/PIL/Image.py", line 3532, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file 'data/images/Chemed/62.jpg'
+2025-02-02 20:27:39,383 - INFO - Processing image: data/images/Chemed/60.jpg
+2025-02-02 20:27:40,062 - INFO - Processing image: data/images/Chemed/59.jpg
+2025-02-02 20:27:40,742 - ERROR - Failed to process data/images/Chemed/59.jpg: invalid input for query argument $4: {'xmin': 46.03662109375, 'ymin': 178.296... (expected str, got dict)
+Traceback (most recent call last):
+  File "asyncpg/protocol/prepared_stmt.pyx", line 175, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+  File "asyncpg/protocol/codecs/base.pyx", line 227, in asyncpg.protocol.protocol.Codec.encode
+  File "asyncpg/protocol/codecs/base.pyx", line 129, in asyncpg.protocol.protocol.Codec.encode_scalar
+  File "asyncpg/pgproto/./codecs/json.pyx", line 16, in asyncpg.pgproto.pgproto.jsonb_encode
+  File "asyncpg/pgproto/./codecs/text.pyx", line 12, in asyncpg.pgproto.pgproto.as_pg_string_and_size
+TypeError: expected str, got dict
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/scripts/detect.py", line 56, in detect_objects
+    await conn.execute("""
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 352, in execute
+    _, status, _ = await self._execute(
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 185, in bind_execute
+  File "asyncpg/protocol/prepared_stmt.pyx", line 204, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+asyncpg.exceptions.DataError: invalid input for query argument $4: {'xmin': 46.03662109375, 'ymin': 178.296... (expected str, got dict)
+2025-02-02 20:27:40,743 - INFO - Processing image: data/images/Chemed/58.jpg
+2025-02-02 20:27:41,466 - ERROR - Failed to process data/images/Chemed/58.jpg: invalid input for query argument $4: {'xmin': 693.7755737304688, 'ymin': 609.... (expected str, got dict)
+Traceback (most recent call last):
+  File "asyncpg/protocol/prepared_stmt.pyx", line 175, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+  File "asyncpg/protocol/codecs/base.pyx", line 227, in asyncpg.protocol.protocol.Codec.encode
+  File "asyncpg/protocol/codecs/base.pyx", line 129, in asyncpg.protocol.protocol.Codec.encode_scalar
+  File "asyncpg/pgproto/./codecs/json.pyx", line 16, in asyncpg.pgproto.pgproto.jsonb_encode
+  File "asyncpg/pgproto/./codecs/text.pyx", line 12, in asyncpg.pgproto.pgproto.as_pg_string_and_size
+TypeError: expected str, got dict
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/scripts/detect.py", line 56, in detect_objects
+    await conn.execute("""
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 352, in execute
+    _, status, _ = await self._execute(
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 185, in bind_execute
+  File "asyncpg/protocol/prepared_stmt.pyx", line 204, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+asyncpg.exceptions.DataError: invalid input for query argument $4: {'xmin': 693.7755737304688, 'ymin': 609.... (expected str, got dict)
+2025-02-02 20:27:41,467 - INFO - Processing image: data/images/Chemed/57.jpg
+2025-02-02 20:27:41,882 - ERROR - Failed to process data/images/Chemed/57.jpg: invalid input for query argument $4: {'xmin': 562.2443237304688, 'ymin': 159.... (expected str, got dict)
+Traceback (most recent call last):
+  File "asyncpg/protocol/prepared_stmt.pyx", line 175, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+  File "asyncpg/protocol/codecs/base.pyx", line 227, in asyncpg.protocol.protocol.Codec.encode
+  File "asyncpg/protocol/codecs/base.pyx", line 129, in asyncpg.protocol.protocol.Codec.encode_scalar
+  File "asyncpg/pgproto/./codecs/json.pyx", line 16, in asyncpg.pgproto.pgproto.jsonb_encode
+  File "asyncpg/pgproto/./codecs/text.pyx", line 12, in asyncpg.pgproto.pgproto.as_pg_string_and_size
+TypeError: expected str, got dict
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/scripts/detect.py", line 56, in detect_objects
+    await conn.execute("""
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 352, in execute
+    _, status, _ = await self._execute(
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 185, in bind_execute
+  File "asyncpg/protocol/prepared_stmt.pyx", line 204, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+asyncpg.exceptions.DataError: invalid input for query argument $4: {'xmin': 562.2443237304688, 'ymin': 159.... (expected str, got dict)
+2025-02-02 20:27:41,883 - INFO - Processing image: data/images/Chemed/56.jpg
+2025-02-02 20:27:42,643 - ERROR - Failed to process data/images/Chemed/56.jpg: invalid input for query argument $4: {'xmin': 360.629638671875, 'ymin': 302.3... (expected str, got dict)
+Traceback (most recent call last):
+  File "asyncpg/protocol/prepared_stmt.pyx", line 175, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+  File "asyncpg/protocol/codecs/base.pyx", line 227, in asyncpg.protocol.protocol.Codec.encode
+  File "asyncpg/protocol/codecs/base.pyx", line 129, in asyncpg.protocol.protocol.Codec.encode_scalar
+  File "asyncpg/pgproto/./codecs/json.pyx", line 16, in asyncpg.pgproto.pgproto.jsonb_encode
+  File "asyncpg/pgproto/./codecs/text.pyx", line 12, in asyncpg.pgproto.pgproto.as_pg_string_and_size
+TypeError: expected str, got dict
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/scripts/detect.py", line 56, in detect_objects
+    await conn.execute("""
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 352, in execute
+    _, status, _ = await self._execute(
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 185, in bind_execute
+  File "asyncpg/protocol/prepared_stmt.pyx", line 204, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+asyncpg.exceptions.DataError: invalid input for query argument $4: {'xmin': 360.629638671875, 'ymin': 302.3... (expected str, got dict)
+2025-02-02 20:27:42,644 - INFO - Processing image: data/images/Chemed/55.jpg
+2025-02-02 20:27:43,451 - ERROR - Failed to process data/images/Chemed/55.jpg: invalid input for query argument $4: {'xmin': 807.4682006835938, 'ymin': 732.... (expected str, got dict)
+Traceback (most recent call last):
+  File "asyncpg/protocol/prepared_stmt.pyx", line 175, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+  File "asyncpg/protocol/codecs/base.pyx", line 227, in asyncpg.protocol.protocol.Codec.encode
+  File "asyncpg/protocol/codecs/base.pyx", line 129, in asyncpg.protocol.protocol.Codec.encode_scalar
+  File "asyncpg/pgproto/./codecs/json.pyx", line 16, in asyncpg.pgproto.pgproto.jsonb_encode
+  File "asyncpg/pgproto/./codecs/text.pyx", line 12, in asyncpg.pgproto.pgproto.as_pg_string_and_size
+TypeError: expected str, got dict
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/scripts/detect.py", line 56, in detect_objects
+    await conn.execute("""
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 352, in execute
+    _, status, _ = await self._execute(
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 185, in bind_execute
+  File "asyncpg/protocol/prepared_stmt.pyx", line 204, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+asyncpg.exceptions.DataError: invalid input for query argument $4: {'xmin': 807.4682006835938, 'ymin': 732.... (expected str, got dict)
+2025-02-02 20:27:43,452 - INFO - Processing image: data/images/Chemed/53.jpg
+2025-02-02 20:27:44,073 - INFO - Processing image: data/images/Chemed/52.jpg
+2025-02-02 20:27:44,915 - ERROR - Failed to process data/images/Chemed/52.jpg: invalid input for query argument $4: {'xmin': 578.6617431640625, 'ymin': 425.... (expected str, got dict)
+Traceback (most recent call last):
+  File "asyncpg/protocol/prepared_stmt.pyx", line 175, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+  File "asyncpg/protocol/codecs/base.pyx", line 227, in asyncpg.protocol.protocol.Codec.encode
+  File "asyncpg/protocol/codecs/base.pyx", line 129, in asyncpg.protocol.protocol.Codec.encode_scalar
+  File "asyncpg/pgproto/./codecs/json.pyx", line 16, in asyncpg.pgproto.pgproto.jsonb_encode
+  File "asyncpg/pgproto/./codecs/text.pyx", line 12, in asyncpg.pgproto.pgproto.as_pg_string_and_size
+TypeError: expected str, got dict
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/scripts/detect.py", line 56, in detect_objects
+    await conn.execute("""
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 352, in execute
+    _, status, _ = await self._execute(
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 185, in bind_execute
+  File "asyncpg/protocol/prepared_stmt.pyx", line 204, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+asyncpg.exceptions.DataError: invalid input for query argument $4: {'xmin': 578.6617431640625, 'ymin': 425.... (expected str, got dict)
+2025-02-02 20:27:44,916 - WARNING - Skipping missing image: data/images/Chemed/51.jpg
+2025-02-02 20:27:44,916 - INFO - Processing image: data/images/Chemed/50.jpg
+2025-02-02 20:27:45,642 - INFO - Processing image: data/images/Chemed/49.jpg
+2025-02-02 20:27:46,371 - ERROR - Failed to process data/images/Chemed/49.jpg: invalid input for query argument $4: {'xmin': 153.35145568847656, 'ymin': 683... (expected str, got dict)
+Traceback (most recent call last):
+  File "asyncpg/protocol/prepared_stmt.pyx", line 175, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+  File "asyncpg/protocol/codecs/base.pyx", line 227, in asyncpg.protocol.protocol.Codec.encode
+  File "asyncpg/protocol/codecs/base.pyx", line 129, in asyncpg.protocol.protocol.Codec.encode_scalar
+  File "asyncpg/pgproto/./codecs/json.pyx", line 16, in asyncpg.pgproto.pgproto.jsonb_encode
+  File "asyncpg/pgproto/./codecs/text.pyx", line 12, in asyncpg.pgproto.pgproto.as_pg_string_and_size
+TypeError: expected str, got dict
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/scripts/detect.py", line 56, in detect_objects
+    await conn.execute("""
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 352, in execute
+    _, status, _ = await self._execute(
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 185, in bind_execute
+  File "asyncpg/protocol/prepared_stmt.pyx", line 204, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+asyncpg.exceptions.DataError: invalid input for query argument $4: {'xmin': 153.35145568847656, 'ymin': 683... (expected str, got dict)
+2025-02-02 20:27:46,372 - INFO - Processing image: data/images/Chemed/48.jpg
+2025-02-02 20:27:47,089 - ERROR - Failed to process data/images/Chemed/48.jpg: invalid input for query argument $4: {'xmin': 702.061279296875, 'ymin': 777.9... (expected str, got dict)
+Traceback (most recent call last):
+  File "asyncpg/protocol/prepared_stmt.pyx", line 175, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+  File "asyncpg/protocol/codecs/base.pyx", line 227, in asyncpg.protocol.protocol.Codec.encode
+  File "asyncpg/protocol/codecs/base.pyx", line 129, in asyncpg.protocol.protocol.Codec.encode_scalar
+  File "asyncpg/pgproto/./codecs/json.pyx", line 16, in asyncpg.pgproto.pgproto.jsonb_encode
+  File "asyncpg/pgproto/./codecs/text.pyx", line 12, in asyncpg.pgproto.pgproto.as_pg_string_and_size
+TypeError: expected str, got dict
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/scripts/detect.py", line 56, in detect_objects
+    await conn.execute("""
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 352, in execute
+    _, status, _ = await self._execute(
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 185, in bind_execute
+  File "asyncpg/protocol/prepared_stmt.pyx", line 204, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+asyncpg.exceptions.DataError: invalid input for query argument $4: {'xmin': 702.061279296875, 'ymin': 777.9... (expected str, got dict)
+2025-02-02 20:27:47,090 - INFO - Processing image: data/images/Chemed/46.jpg
+2025-02-02 20:27:47,800 - ERROR - Failed to process data/images/Chemed/46.jpg: invalid input for query argument $4: {'xmin': 486.4715270996094, 'ymin': 374.... (expected str, got dict)
+Traceback (most recent call last):
+  File "asyncpg/protocol/prepared_stmt.pyx", line 175, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+  File "asyncpg/protocol/codecs/base.pyx", line 227, in asyncpg.protocol.protocol.Codec.encode
+  File "asyncpg/protocol/codecs/base.pyx", line 129, in asyncpg.protocol.protocol.Codec.encode_scalar
+  File "asyncpg/pgproto/./codecs/json.pyx", line 16, in asyncpg.pgproto.pgproto.jsonb_encode
+  File "asyncpg/pgproto/./codecs/text.pyx", line 12, in asyncpg.pgproto.pgproto.as_pg_string_and_size
+TypeError: expected str, got dict
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/scripts/detect.py", line 56, in detect_objects
+    await conn.execute("""
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 352, in execute
+    _, status, _ = await self._execute(
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 185, in bind_execute
+  File "asyncpg/protocol/prepared_stmt.pyx", line 204, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+asyncpg.exceptions.DataError: invalid input for query argument $4: {'xmin': 486.4715270996094, 'ymin': 374.... (expected str, got dict)
+2025-02-02 20:27:47,801 - INFO - Processing image: data/images/Chemed/45.jpg
+2025-02-02 20:27:48,655 - ERROR - Failed to process data/images/Chemed/45.jpg: invalid input for query argument $4: {'xmin': 362.8745422363281, 'ymin': 770.... (expected str, got dict)
+Traceback (most recent call last):
+  File "asyncpg/protocol/prepared_stmt.pyx", line 175, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+  File "asyncpg/protocol/codecs/base.pyx", line 227, in asyncpg.protocol.protocol.Codec.encode
+  File "asyncpg/protocol/codecs/base.pyx", line 129, in asyncpg.protocol.protocol.Codec.encode_scalar
+  File "asyncpg/pgproto/./codecs/json.pyx", line 16, in asyncpg.pgproto.pgproto.jsonb_encode
+  File "asyncpg/pgproto/./codecs/text.pyx", line 12, in asyncpg.pgproto.pgproto.as_pg_string_and_size
+TypeError: expected str, got dict
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/scripts/detect.py", line 56, in detect_objects
+    await conn.execute("""
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 352, in execute
+    _, status, _ = await self._execute(
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 185, in bind_execute
+  File "asyncpg/protocol/prepared_stmt.pyx", line 204, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+asyncpg.exceptions.DataError: invalid input for query argument $4: {'xmin': 362.8745422363281, 'ymin': 770.... (expected str, got dict)
+2025-02-02 20:27:48,656 - INFO - Processing image: data/images/Chemed/44.jpg
+2025-02-02 20:27:49,123 - ERROR - Failed to process data/images/Chemed/44.jpg: invalid input for query argument $4: {'xmin': 487.0501708984375, 'ymin': 63.6... (expected str, got dict)
+Traceback (most recent call last):
+  File "asyncpg/protocol/prepared_stmt.pyx", line 175, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+  File "asyncpg/protocol/codecs/base.pyx", line 227, in asyncpg.protocol.protocol.Codec.encode
+  File "asyncpg/protocol/codecs/base.pyx", line 129, in asyncpg.protocol.protocol.Codec.encode_scalar
+  File "asyncpg/pgproto/./codecs/json.pyx", line 16, in asyncpg.pgproto.pgproto.jsonb_encode
+  File "asyncpg/pgproto/./codecs/text.pyx", line 12, in asyncpg.pgproto.pgproto.as_pg_string_and_size
+TypeError: expected str, got dict
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/scripts/detect.py", line 56, in detect_objects
+    await conn.execute("""
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 352, in execute
+    _, status, _ = await self._execute(
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 185, in bind_execute
+  File "asyncpg/protocol/prepared_stmt.pyx", line 204, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+asyncpg.exceptions.DataError: invalid input for query argument $4: {'xmin': 487.0501708984375, 'ymin': 63.6... (expected str, got dict)
+2025-02-02 20:27:49,124 - INFO - Processing image: data/images/Chemed/43.jpg
+2025-02-02 20:27:50,059 - ERROR - Failed to process data/images/Chemed/43.jpg: invalid input for query argument $4: {'xmin': 166.47067260742188, 'ymin': 36.... (expected str, got dict)
+Traceback (most recent call last):
+  File "asyncpg/protocol/prepared_stmt.pyx", line 175, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+  File "asyncpg/protocol/codecs/base.pyx", line 227, in asyncpg.protocol.protocol.Codec.encode
+  File "asyncpg/protocol/codecs/base.pyx", line 129, in asyncpg.protocol.protocol.Codec.encode_scalar
+  File "asyncpg/pgproto/./codecs/json.pyx", line 16, in asyncpg.pgproto.pgproto.jsonb_encode
+  File "asyncpg/pgproto/./codecs/text.pyx", line 12, in asyncpg.pgproto.pgproto.as_pg_string_and_size
+TypeError: expected str, got dict
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/scripts/detect.py", line 56, in detect_objects
+    await conn.execute("""
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 352, in execute
+    _, status, _ = await self._execute(
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 185, in bind_execute
+  File "asyncpg/protocol/prepared_stmt.pyx", line 204, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+asyncpg.exceptions.DataError: invalid input for query argument $4: {'xmin': 166.47067260742188, 'ymin': 36.... (expected str, got dict)
+2025-02-02 20:27:50,060 - INFO - Processing image: data/images/Chemed/41.jpg
+2025-02-02 20:27:51,149 - ERROR - Failed to process data/images/Chemed/41.jpg: invalid input for query argument $4: {'xmin': 260.8941650390625, 'ymin': 680.... (expected str, got dict)
+Traceback (most recent call last):
+  File "asyncpg/protocol/prepared_stmt.pyx", line 175, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+  File "asyncpg/protocol/codecs/base.pyx", line 227, in asyncpg.protocol.protocol.Codec.encode
+  File "asyncpg/protocol/codecs/base.pyx", line 129, in asyncpg.protocol.protocol.Codec.encode_scalar
+  File "asyncpg/pgproto/./codecs/json.pyx", line 16, in asyncpg.pgproto.pgproto.jsonb_encode
+  File "asyncpg/pgproto/./codecs/text.pyx", line 12, in asyncpg.pgproto.pgproto.as_pg_string_and_size
+TypeError: expected str, got dict
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/scripts/detect.py", line 56, in detect_objects
+    await conn.execute("""
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 352, in execute
+    _, status, _ = await self._execute(
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 185, in bind_execute
+  File "asyncpg/protocol/prepared_stmt.pyx", line 204, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+asyncpg.exceptions.DataError: invalid input for query argument $4: {'xmin': 260.8941650390625, 'ymin': 680.... (expected str, got dict)
+2025-02-02 20:27:51,151 - INFO - Processing image: data/images/Chemed/40.jpg
+2025-02-02 20:27:51,632 - ERROR - Failed to process data/images/Chemed/40.jpg: invalid input for query argument $4: {'xmin': 182.98809814453125, 'ymin': 261... (expected str, got dict)
+Traceback (most recent call last):
+  File "asyncpg/protocol/prepared_stmt.pyx", line 175, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+  File "asyncpg/protocol/codecs/base.pyx", line 227, in asyncpg.protocol.protocol.Codec.encode
+  File "asyncpg/protocol/codecs/base.pyx", line 129, in asyncpg.protocol.protocol.Codec.encode_scalar
+  File "asyncpg/pgproto/./codecs/json.pyx", line 16, in asyncpg.pgproto.pgproto.jsonb_encode
+  File "asyncpg/pgproto/./codecs/text.pyx", line 12, in asyncpg.pgproto.pgproto.as_pg_string_and_size
+TypeError: expected str, got dict
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/scripts/detect.py", line 56, in detect_objects
+    await conn.execute("""
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 352, in execute
+    _, status, _ = await self._execute(
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 185, in bind_execute
+  File "asyncpg/protocol/prepared_stmt.pyx", line 204, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+asyncpg.exceptions.DataError: invalid input for query argument $4: {'xmin': 182.98809814453125, 'ymin': 261... (expected str, got dict)
+2025-02-02 20:27:51,633 - INFO - Processing image: data/images/Chemed/39.jpg
+2025-02-02 20:27:52,168 - ERROR - Failed to process data/images/Chemed/39.jpg: invalid input for query argument $4: {'xmin': 145.5297088623047, 'ymin': 171.... (expected str, got dict)
+Traceback (most recent call last):
+  File "asyncpg/protocol/prepared_stmt.pyx", line 175, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+  File "asyncpg/protocol/codecs/base.pyx", line 227, in asyncpg.protocol.protocol.Codec.encode
+  File "asyncpg/protocol/codecs/base.pyx", line 129, in asyncpg.protocol.protocol.Codec.encode_scalar
+  File "asyncpg/pgproto/./codecs/json.pyx", line 16, in asyncpg.pgproto.pgproto.jsonb_encode
+  File "asyncpg/pgproto/./codecs/text.pyx", line 12, in asyncpg.pgproto.pgproto.as_pg_string_and_size
+TypeError: expected str, got dict
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/scripts/detect.py", line 56, in detect_objects
+    await conn.execute("""
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 352, in execute
+    _, status, _ = await self._execute(
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 185, in bind_execute
+  File "asyncpg/protocol/prepared_stmt.pyx", line 204, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+asyncpg.exceptions.DataError: invalid input for query argument $4: {'xmin': 145.5297088623047, 'ymin': 171.... (expected str, got dict)
+2025-02-02 20:27:52,169 - INFO - Processing image: data/images/Chemed/38.jpg
+2025-02-02 20:27:52,846 - ERROR - Failed to process data/images/Chemed/38.jpg: invalid input for query argument $4: {'xmin': 52.848690032958984, 'ymin': 134... (expected str, got dict)
+Traceback (most recent call last):
+  File "asyncpg/protocol/prepared_stmt.pyx", line 175, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+  File "asyncpg/protocol/codecs/base.pyx", line 227, in asyncpg.protocol.protocol.Codec.encode
+  File "asyncpg/protocol/codecs/base.pyx", line 129, in asyncpg.protocol.protocol.Codec.encode_scalar
+  File "asyncpg/pgproto/./codecs/json.pyx", line 16, in asyncpg.pgproto.pgproto.jsonb_encode
+  File "asyncpg/pgproto/./codecs/text.pyx", line 12, in asyncpg.pgproto.pgproto.as_pg_string_and_size
+TypeError: expected str, got dict
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/scripts/detect.py", line 56, in detect_objects
+    await conn.execute("""
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 352, in execute
+    _, status, _ = await self._execute(
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 185, in bind_execute
+  File "asyncpg/protocol/prepared_stmt.pyx", line 204, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+asyncpg.exceptions.DataError: invalid input for query argument $4: {'xmin': 52.848690032958984, 'ymin': 134... (expected str, got dict)
+2025-02-02 20:27:52,846 - INFO - Processing image: data/images/Chemed/34.jpg
+2025-02-02 20:27:53,551 - INFO - Processing image: data/images/Chemed/33.jpg
+2025-02-02 20:27:54,413 - ERROR - Failed to process data/images/Chemed/33.jpg: invalid input for query argument $4: {'xmin': 746.607421875, 'ymin': 605.3538... (expected str, got dict)
+Traceback (most recent call last):
+  File "asyncpg/protocol/prepared_stmt.pyx", line 175, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+  File "asyncpg/protocol/codecs/base.pyx", line 227, in asyncpg.protocol.protocol.Codec.encode
+  File "asyncpg/protocol/codecs/base.pyx", line 129, in asyncpg.protocol.protocol.Codec.encode_scalar
+  File "asyncpg/pgproto/./codecs/json.pyx", line 16, in asyncpg.pgproto.pgproto.jsonb_encode
+  File "asyncpg/pgproto/./codecs/text.pyx", line 12, in asyncpg.pgproto.pgproto.as_pg_string_and_size
+TypeError: expected str, got dict
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/scripts/detect.py", line 56, in detect_objects
+    await conn.execute("""
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 352, in execute
+    _, status, _ = await self._execute(
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 185, in bind_execute
+  File "asyncpg/protocol/prepared_stmt.pyx", line 204, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+asyncpg.exceptions.DataError: invalid input for query argument $4: {'xmin': 746.607421875, 'ymin': 605.3538... (expected str, got dict)
+2025-02-02 20:27:54,414 - INFO - Processing image: data/images/Chemed/32.jpg
+2025-02-02 20:27:55,286 - INFO - Processing image: data/images/Chemed/31.jpg
+2025-02-02 20:27:55,930 - ERROR - Failed to process data/images/Chemed/31.jpg: invalid input for query argument $4: {'xmin': 575.3919677734375, 'ymin': 379.... (expected str, got dict)
+Traceback (most recent call last):
+  File "asyncpg/protocol/prepared_stmt.pyx", line 175, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+  File "asyncpg/protocol/codecs/base.pyx", line 227, in asyncpg.protocol.protocol.Codec.encode
+  File "asyncpg/protocol/codecs/base.pyx", line 129, in asyncpg.protocol.protocol.Codec.encode_scalar
+  File "asyncpg/pgproto/./codecs/json.pyx", line 16, in asyncpg.pgproto.pgproto.jsonb_encode
+  File "asyncpg/pgproto/./codecs/text.pyx", line 12, in asyncpg.pgproto.pgproto.as_pg_string_and_size
+TypeError: expected str, got dict
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/scripts/detect.py", line 56, in detect_objects
+    await conn.execute("""
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 352, in execute
+    _, status, _ = await self._execute(
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 185, in bind_execute
+  File "asyncpg/protocol/prepared_stmt.pyx", line 204, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+asyncpg.exceptions.DataError: invalid input for query argument $4: {'xmin': 575.3919677734375, 'ymin': 379.... (expected str, got dict)
+2025-02-02 20:27:55,932 - INFO - Processing image: data/images/Chemed/30.jpg
+2025-02-02 20:27:56,872 - ERROR - Failed to process data/images/Chemed/30.jpg: invalid input for query argument $4: {'xmin': 169.30661010742188, 'ymin': 116... (expected str, got dict)
+Traceback (most recent call last):
+  File "asyncpg/protocol/prepared_stmt.pyx", line 175, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+  File "asyncpg/protocol/codecs/base.pyx", line 227, in asyncpg.protocol.protocol.Codec.encode
+  File "asyncpg/protocol/codecs/base.pyx", line 129, in asyncpg.protocol.protocol.Codec.encode_scalar
+  File "asyncpg/pgproto/./codecs/json.pyx", line 16, in asyncpg.pgproto.pgproto.jsonb_encode
+  File "asyncpg/pgproto/./codecs/text.pyx", line 12, in asyncpg.pgproto.pgproto.as_pg_string_and_size
+TypeError: expected str, got dict
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/scripts/detect.py", line 56, in detect_objects
+    await conn.execute("""
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 352, in execute
+    _, status, _ = await self._execute(
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 185, in bind_execute
+  File "asyncpg/protocol/prepared_stmt.pyx", line 204, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+asyncpg.exceptions.DataError: invalid input for query argument $4: {'xmin': 169.30661010742188, 'ymin': 116... (expected str, got dict)
+2025-02-02 20:27:56,873 - INFO - Processing image: data/images/Chemed/29.jpg
+2025-02-02 20:27:57,455 - ERROR - Failed to process data/images/Chemed/29.jpg: invalid input for query argument $4: {'xmin': 2.8499908447265625, 'ymin': 47.... (expected str, got dict)
+Traceback (most recent call last):
+  File "asyncpg/protocol/prepared_stmt.pyx", line 175, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+  File "asyncpg/protocol/codecs/base.pyx", line 227, in asyncpg.protocol.protocol.Codec.encode
+  File "asyncpg/protocol/codecs/base.pyx", line 129, in asyncpg.protocol.protocol.Codec.encode_scalar
+  File "asyncpg/pgproto/./codecs/json.pyx", line 16, in asyncpg.pgproto.pgproto.jsonb_encode
+  File "asyncpg/pgproto/./codecs/text.pyx", line 12, in asyncpg.pgproto.pgproto.as_pg_string_and_size
+TypeError: expected str, got dict
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/scripts/detect.py", line 56, in detect_objects
+    await conn.execute("""
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 352, in execute
+    _, status, _ = await self._execute(
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 185, in bind_execute
+  File "asyncpg/protocol/prepared_stmt.pyx", line 204, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+asyncpg.exceptions.DataError: invalid input for query argument $4: {'xmin': 2.8499908447265625, 'ymin': 47.... (expected str, got dict)
+2025-02-02 20:27:57,456 - INFO - Processing image: data/images/Chemed/27.jpg
+2025-02-02 20:27:58,092 - INFO - Processing image: data/images/Chemed/26.jpg
+2025-02-02 20:27:58,680 - ERROR - Failed to process data/images/Chemed/26.jpg: invalid input for query argument $4: {'xmin': 735.1486206054688, 'ymin': 17.6... (expected str, got dict)
+Traceback (most recent call last):
+  File "asyncpg/protocol/prepared_stmt.pyx", line 175, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+  File "asyncpg/protocol/codecs/base.pyx", line 227, in asyncpg.protocol.protocol.Codec.encode
+  File "asyncpg/protocol/codecs/base.pyx", line 129, in asyncpg.protocol.protocol.Codec.encode_scalar
+  File "asyncpg/pgproto/./codecs/json.pyx", line 16, in asyncpg.pgproto.pgproto.jsonb_encode
+  File "asyncpg/pgproto/./codecs/text.pyx", line 12, in asyncpg.pgproto.pgproto.as_pg_string_and_size
+TypeError: expected str, got dict
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/scripts/detect.py", line 56, in detect_objects
+    await conn.execute("""
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 352, in execute
+    _, status, _ = await self._execute(
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 185, in bind_execute
+  File "asyncpg/protocol/prepared_stmt.pyx", line 204, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+asyncpg.exceptions.DataError: invalid input for query argument $4: {'xmin': 735.1486206054688, 'ymin': 17.6... (expected str, got dict)
+2025-02-02 20:27:58,681 - INFO - Processing image: data/images/Chemed/25.jpg
+2025-02-02 20:27:59,248 - ERROR - Failed to process data/images/Chemed/25.jpg: invalid input for query argument $4: {'xmin': 478.62664794921875, 'ymin': 147... (expected str, got dict)
+Traceback (most recent call last):
+  File "asyncpg/protocol/prepared_stmt.pyx", line 175, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+  File "asyncpg/protocol/codecs/base.pyx", line 227, in asyncpg.protocol.protocol.Codec.encode
+  File "asyncpg/protocol/codecs/base.pyx", line 129, in asyncpg.protocol.protocol.Codec.encode_scalar
+  File "asyncpg/pgproto/./codecs/json.pyx", line 16, in asyncpg.pgproto.pgproto.jsonb_encode
+  File "asyncpg/pgproto/./codecs/text.pyx", line 12, in asyncpg.pgproto.pgproto.as_pg_string_and_size
+TypeError: expected str, got dict
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/scripts/detect.py", line 56, in detect_objects
+    await conn.execute("""
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 352, in execute
+    _, status, _ = await self._execute(
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 185, in bind_execute
+  File "asyncpg/protocol/prepared_stmt.pyx", line 204, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+asyncpg.exceptions.DataError: invalid input for query argument $4: {'xmin': 478.62664794921875, 'ymin': 147... (expected str, got dict)
+2025-02-02 20:27:59,249 - INFO - Processing image: data/images/Chemed/23.jpg
+2025-02-02 20:27:59,832 - INFO - Processing image: data/images/Chemed/22.jpg
+2025-02-02 20:28:00,410 - ERROR - Failed to process data/images/Chemed/22.jpg: invalid input for query argument $4: {'xmin': 137.8393096923828, 'ymin': 143.... (expected str, got dict)
+Traceback (most recent call last):
+  File "asyncpg/protocol/prepared_stmt.pyx", line 175, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+  File "asyncpg/protocol/codecs/base.pyx", line 227, in asyncpg.protocol.protocol.Codec.encode
+  File "asyncpg/protocol/codecs/base.pyx", line 129, in asyncpg.protocol.protocol.Codec.encode_scalar
+  File "asyncpg/pgproto/./codecs/json.pyx", line 16, in asyncpg.pgproto.pgproto.jsonb_encode
+  File "asyncpg/pgproto/./codecs/text.pyx", line 12, in asyncpg.pgproto.pgproto.as_pg_string_and_size
+TypeError: expected str, got dict
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/scripts/detect.py", line 56, in detect_objects
+    await conn.execute("""
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 352, in execute
+    _, status, _ = await self._execute(
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 185, in bind_execute
+  File "asyncpg/protocol/prepared_stmt.pyx", line 204, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+asyncpg.exceptions.DataError: invalid input for query argument $4: {'xmin': 137.8393096923828, 'ymin': 143.... (expected str, got dict)
+2025-02-02 20:28:00,411 - INFO - Processing image: data/images/Chemed/21.jpg
+2025-02-02 20:28:01,325 - INFO - Processing image: data/images/Chemed/20.jpg
+2025-02-02 20:28:01,899 - ERROR - Failed to process data/images/Chemed/20.jpg: invalid input for query argument $4: {'xmin': 48.4599609375, 'ymin': 387.6861... (expected str, got dict)
+Traceback (most recent call last):
+  File "asyncpg/protocol/prepared_stmt.pyx", line 175, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+  File "asyncpg/protocol/codecs/base.pyx", line 227, in asyncpg.protocol.protocol.Codec.encode
+  File "asyncpg/protocol/codecs/base.pyx", line 129, in asyncpg.protocol.protocol.Codec.encode_scalar
+  File "asyncpg/pgproto/./codecs/json.pyx", line 16, in asyncpg.pgproto.pgproto.jsonb_encode
+  File "asyncpg/pgproto/./codecs/text.pyx", line 12, in asyncpg.pgproto.pgproto.as_pg_string_and_size
+TypeError: expected str, got dict
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/scripts/detect.py", line 56, in detect_objects
+    await conn.execute("""
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 352, in execute
+    _, status, _ = await self._execute(
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 185, in bind_execute
+  File "asyncpg/protocol/prepared_stmt.pyx", line 204, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+asyncpg.exceptions.DataError: invalid input for query argument $4: {'xmin': 48.4599609375, 'ymin': 387.6861... (expected str, got dict)
+2025-02-02 20:28:01,901 - INFO - Processing image: data/images/Chemed/19.jpg
+2025-02-02 20:28:02,426 - ERROR - Failed to process data/images/Chemed/19.jpg: invalid input for query argument $4: {'xmin': 48.4599609375, 'ymin': 387.6861... (expected str, got dict)
+Traceback (most recent call last):
+  File "asyncpg/protocol/prepared_stmt.pyx", line 175, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+  File "asyncpg/protocol/codecs/base.pyx", line 227, in asyncpg.protocol.protocol.Codec.encode
+  File "asyncpg/protocol/codecs/base.pyx", line 129, in asyncpg.protocol.protocol.Codec.encode_scalar
+  File "asyncpg/pgproto/./codecs/json.pyx", line 16, in asyncpg.pgproto.pgproto.jsonb_encode
+  File "asyncpg/pgproto/./codecs/text.pyx", line 12, in asyncpg.pgproto.pgproto.as_pg_string_and_size
+TypeError: expected str, got dict
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/scripts/detect.py", line 56, in detect_objects
+    await conn.execute("""
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 352, in execute
+    _, status, _ = await self._execute(
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 185, in bind_execute
+  File "asyncpg/protocol/prepared_stmt.pyx", line 204, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+asyncpg.exceptions.DataError: invalid input for query argument $4: {'xmin': 48.4599609375, 'ymin': 387.6861... (expected str, got dict)
+2025-02-02 20:28:02,428 - INFO - Processing image: data/images/Chemed/18.jpg
+2025-02-02 20:28:03,305 - INFO - Processing image: data/images/Chemed/17.jpg
+2025-02-02 20:28:03,951 - ERROR - Failed to process data/images/Chemed/17.jpg: invalid input for query argument $4: {'xmin': 575.3761596679688, 'ymin': 379.... (expected str, got dict)
+Traceback (most recent call last):
+  File "asyncpg/protocol/prepared_stmt.pyx", line 175, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+  File "asyncpg/protocol/codecs/base.pyx", line 227, in asyncpg.protocol.protocol.Codec.encode
+  File "asyncpg/protocol/codecs/base.pyx", line 129, in asyncpg.protocol.protocol.Codec.encode_scalar
+  File "asyncpg/pgproto/./codecs/json.pyx", line 16, in asyncpg.pgproto.pgproto.jsonb_encode
+  File "asyncpg/pgproto/./codecs/text.pyx", line 12, in asyncpg.pgproto.pgproto.as_pg_string_and_size
+TypeError: expected str, got dict
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/scripts/detect.py", line 56, in detect_objects
+    await conn.execute("""
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 352, in execute
+    _, status, _ = await self._execute(
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 185, in bind_execute
+  File "asyncpg/protocol/prepared_stmt.pyx", line 204, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+asyncpg.exceptions.DataError: invalid input for query argument $4: {'xmin': 575.3761596679688, 'ymin': 379.... (expected str, got dict)
+2025-02-02 20:28:03,952 - INFO - Processing image: data/images/Chemed/15.jpg
+2025-02-02 20:28:04,657 - INFO - Processing image: data/images/Chemed/14.jpg
+2025-02-02 20:28:05,257 - INFO - Processing image: data/images/Chemed/13.jpg
+2025-02-02 20:28:05,914 - ERROR - Failed to process data/images/Chemed/13.jpg: invalid input for query argument $4: {'xmin': 318.3664245605469, 'ymin': 394.... (expected str, got dict)
+Traceback (most recent call last):
+  File "asyncpg/protocol/prepared_stmt.pyx", line 175, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+  File "asyncpg/protocol/codecs/base.pyx", line 227, in asyncpg.protocol.protocol.Codec.encode
+  File "asyncpg/protocol/codecs/base.pyx", line 129, in asyncpg.protocol.protocol.Codec.encode_scalar
+  File "asyncpg/pgproto/./codecs/json.pyx", line 16, in asyncpg.pgproto.pgproto.jsonb_encode
+  File "asyncpg/pgproto/./codecs/text.pyx", line 12, in asyncpg.pgproto.pgproto.as_pg_string_and_size
+TypeError: expected str, got dict
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/scripts/detect.py", line 56, in detect_objects
+    await conn.execute("""
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 352, in execute
+    _, status, _ = await self._execute(
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 185, in bind_execute
+  File "asyncpg/protocol/prepared_stmt.pyx", line 204, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+asyncpg.exceptions.DataError: invalid input for query argument $4: {'xmin': 318.3664245605469, 'ymin': 394.... (expected str, got dict)
+2025-02-02 20:28:05,915 - INFO - Processing image: data/images/Chemed/11.jpg
+2025-02-02 20:28:06,615 - INFO - Processing image: data/images/Chemed/10.jpg
+2025-02-02 20:28:07,276 - INFO - Processing image: data/images/Chemed/9.jpg
+2025-02-02 20:28:07,913 - ERROR - Failed to process data/images/Chemed/9.jpg: invalid input for query argument $4: {'xmin': 694.0126342773438, 'ymin': 609.... (expected str, got dict)
+Traceback (most recent call last):
+  File "asyncpg/protocol/prepared_stmt.pyx", line 175, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+  File "asyncpg/protocol/codecs/base.pyx", line 227, in asyncpg.protocol.protocol.Codec.encode
+  File "asyncpg/protocol/codecs/base.pyx", line 129, in asyncpg.protocol.protocol.Codec.encode_scalar
+  File "asyncpg/pgproto/./codecs/json.pyx", line 16, in asyncpg.pgproto.pgproto.jsonb_encode
+  File "asyncpg/pgproto/./codecs/text.pyx", line 12, in asyncpg.pgproto.pgproto.as_pg_string_and_size
+TypeError: expected str, got dict
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/scripts/detect.py", line 56, in detect_objects
+    await conn.execute("""
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 352, in execute
+    _, status, _ = await self._execute(
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 185, in bind_execute
+  File "asyncpg/protocol/prepared_stmt.pyx", line 204, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+asyncpg.exceptions.DataError: invalid input for query argument $4: {'xmin': 694.0126342773438, 'ymin': 609.... (expected str, got dict)
+2025-02-02 20:28:07,914 - INFO - Processing image: data/images/Chemed/3.jpg
+2025-02-02 20:28:08,585 - INFO - Processing image: data/images/Chemed/2.jpg
+2025-02-02 20:28:09,267 - ERROR - Failed to process data/images/Chemed/2.jpg: invalid input for query argument $4: {'xmin': 694.0126342773438, 'ymin': 609.... (expected str, got dict)
+Traceback (most recent call last):
+  File "asyncpg/protocol/prepared_stmt.pyx", line 175, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+  File "asyncpg/protocol/codecs/base.pyx", line 227, in asyncpg.protocol.protocol.Codec.encode
+  File "asyncpg/protocol/codecs/base.pyx", line 129, in asyncpg.protocol.protocol.Codec.encode_scalar
+  File "asyncpg/pgproto/./codecs/json.pyx", line 16, in asyncpg.pgproto.pgproto.jsonb_encode
+  File "asyncpg/pgproto/./codecs/text.pyx", line 12, in asyncpg.pgproto.pgproto.as_pg_string_and_size
+TypeError: expected str, got dict
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/scripts/detect.py", line 56, in detect_objects
+    await conn.execute("""
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 352, in execute
+    _, status, _ = await self._execute(
+                   ^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1864, in _execute
+    result, _ = await self.__execute(
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 1961, in __execute
+    result, stmt = await self._do_execute(
+                   ^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/asyncpg/connection.py", line 2024, in _do_execute
+    result = await executor(stmt, None)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "asyncpg/protocol/protocol.pyx", line 185, in bind_execute
+  File "asyncpg/protocol/prepared_stmt.pyx", line 204, in asyncpg.protocol.protocol.PreparedStatementState._encode_bind_msg
+asyncpg.exceptions.DataError: invalid input for query argument $4: {'xmin': 694.0126342773438, 'ymin': 609.... (expected str, got dict)
+2025-02-02 20:28:09,269 - INFO - Detection completed successfully
+2025-02-02 21:36:51,404 - INFO - Connected to PostgreSQL
+2025-02-02 21:36:51,406 - INFO - Found 72 images to process
+2025-02-02 21:36:51,424 - INFO - Processing image: data/images/Chemed/97.jpg
+2025-02-02 21:36:52,277 - INFO - Processed 0 detections for data/images/Chemed/97.jpg
+2025-02-02 21:36:52,277 - INFO - Processing image: data/images/Chemed/96.jpg
+2025-02-02 21:36:53,175 - INFO - Processed 2 detections for data/images/Chemed/96.jpg
+2025-02-02 21:36:53,177 - INFO - Processing image: data/images/Chemed/95.jpg
+2025-02-02 21:36:54,053 - INFO - Processed 2 detections for data/images/Chemed/95.jpg
+2025-02-02 21:36:54,063 - INFO - Processing image: data/images/Chemed/94.jpg
+2025-02-02 21:36:54,931 - INFO - Processed 5 detections for data/images/Chemed/94.jpg
+2025-02-02 21:36:54,931 - INFO - Processing image: data/images/Chemed/93.jpg
+2025-02-02 21:36:55,664 - INFO - Processed 1 detections for data/images/Chemed/93.jpg
+2025-02-02 21:36:55,665 - INFO - Processing image: data/images/Chemed/92.jpg
+2025-02-02 21:36:56,331 - INFO - Processed 1 detections for data/images/Chemed/92.jpg
+2025-02-02 21:36:56,331 - INFO - Processing image: data/images/Chemed/91.jpg
+2025-02-02 21:36:57,003 - INFO - Processed 0 detections for data/images/Chemed/91.jpg
+2025-02-02 21:36:57,004 - INFO - Processing image: data/images/Chemed/90.jpg
+2025-02-02 21:36:57,827 - INFO - Processed 0 detections for data/images/Chemed/90.jpg
+2025-02-02 21:36:57,867 - ERROR - Error processing data/images/Chemed/89.jpg: cannot identify image file 'data/images/Chemed/89.jpg'
+Traceback (most recent call last):
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/scripts/detect.py", line 51, in detect_objects
+    img = Image.open(image_path)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/PIL/Image.py", line 3532, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file 'data/images/Chemed/89.jpg'
+2025-02-02 21:36:57,911 - INFO - Processing image: data/images/Chemed/88.jpg
+2025-02-02 21:36:58,560 - INFO - Processed 0 detections for data/images/Chemed/88.jpg
+2025-02-02 21:36:58,641 - INFO - Processing image: data/images/Chemed/87.jpg
+2025-02-02 21:36:59,455 - INFO - Processed 0 detections for data/images/Chemed/87.jpg
+2025-02-02 21:36:59,455 - INFO - Processing image: data/images/Chemed/86.jpg
+2025-02-02 21:37:00,198 - INFO - Processed 3 detections for data/images/Chemed/86.jpg
+2025-02-02 21:37:00,199 - INFO - Processing image: data/images/Chemed/85.jpg
+2025-02-02 21:37:00,923 - INFO - Processed 0 detections for data/images/Chemed/85.jpg
+2025-02-02 21:37:00,924 - INFO - Processing image: data/images/Chemed/82.jpg
+2025-02-02 21:37:01,676 - INFO - Processed 4 detections for data/images/Chemed/82.jpg
+2025-02-02 21:37:01,676 - INFO - Processing image: data/images/Chemed/81.jpg
+2025-02-02 21:37:02,443 - INFO - Processed 5 detections for data/images/Chemed/81.jpg
+2025-02-02 21:37:02,444 - INFO - Processing image: data/images/Chemed/80.jpg
+2025-02-02 21:37:03,032 - INFO - Processed 3 detections for data/images/Chemed/80.jpg
+2025-02-02 21:37:03,032 - INFO - Processing image: data/images/Chemed/79.jpg
+2025-02-02 21:37:03,756 - INFO - Processed 0 detections for data/images/Chemed/79.jpg
+2025-02-02 21:37:03,757 - INFO - Processing image: data/images/Chemed/78.jpg
+2025-02-02 21:37:04,332 - INFO - Processed 3 detections for data/images/Chemed/78.jpg
+2025-02-02 21:37:04,333 - INFO - Processing image: data/images/Chemed/77.jpg
+2025-02-02 21:37:05,077 - INFO - Processed 5 detections for data/images/Chemed/77.jpg
+2025-02-02 21:37:05,096 - INFO - Processing image: data/images/Chemed/76.jpg
+2025-02-02 21:37:05,766 - INFO - Processed 2 detections for data/images/Chemed/76.jpg
+2025-02-02 21:37:05,766 - INFO - Processing image: data/images/Chemed/75.jpg
+2025-02-02 21:37:06,477 - INFO - Processed 1 detections for data/images/Chemed/75.jpg
+2025-02-02 21:37:06,477 - INFO - Processing image: data/images/Chemed/74.jpg
+2025-02-02 21:37:07,173 - INFO - Processed 0 detections for data/images/Chemed/74.jpg
+2025-02-02 21:37:07,174 - ERROR - Error processing data/images/Chemed/73.jpg: cannot identify image file 'data/images/Chemed/73.jpg'
+Traceback (most recent call last):
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/scripts/detect.py", line 51, in detect_objects
+    img = Image.open(image_path)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/PIL/Image.py", line 3532, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file 'data/images/Chemed/73.jpg'
+2025-02-02 21:37:07,175 - INFO - Processing image: data/images/Chemed/71.jpg
+2025-02-02 21:37:07,666 - INFO - Processed 3 detections for data/images/Chemed/71.jpg
+2025-02-02 21:37:07,667 - INFO - Processing image: data/images/Chemed/70.jpg
+2025-02-02 21:37:08,189 - INFO - Processed 4 detections for data/images/Chemed/70.jpg
+2025-02-02 21:37:08,189 - INFO - Processing image: data/images/Chemed/67.jpg
+2025-02-02 21:37:08,844 - INFO - Processed 1 detections for data/images/Chemed/67.jpg
+2025-02-02 21:37:08,845 - INFO - Processing image: data/images/Chemed/64.jpg
+2025-02-02 21:37:09,578 - INFO - Processed 2 detections for data/images/Chemed/64.jpg
+2025-02-02 21:37:09,578 - ERROR - Error processing data/images/Chemed/62.jpg: cannot identify image file 'data/images/Chemed/62.jpg'
+Traceback (most recent call last):
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/scripts/detect.py", line 51, in detect_objects
+    img = Image.open(image_path)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/PIL/Image.py", line 3532, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file 'data/images/Chemed/62.jpg'
+2025-02-02 21:37:09,580 - INFO - Processing image: data/images/Chemed/60.jpg
+2025-02-02 21:37:10,286 - INFO - Processed 0 detections for data/images/Chemed/60.jpg
+2025-02-02 21:37:10,298 - INFO - Processing image: data/images/Chemed/59.jpg
+2025-02-02 21:37:11,058 - INFO - Processed 1 detections for data/images/Chemed/59.jpg
+2025-02-02 21:37:11,059 - INFO - Processing image: data/images/Chemed/58.jpg
+2025-02-02 21:37:11,867 - INFO - Processed 12 detections for data/images/Chemed/58.jpg
+2025-02-02 21:37:11,869 - INFO - Processing image: data/images/Chemed/57.jpg
+2025-02-02 21:37:12,545 - INFO - Processed 6 detections for data/images/Chemed/57.jpg
+2025-02-02 21:37:12,547 - INFO - Processing image: data/images/Chemed/56.jpg
+2025-02-02 21:37:13,301 - INFO - Processed 1 detections for data/images/Chemed/56.jpg
+2025-02-02 21:37:13,301 - INFO - Processing image: data/images/Chemed/55.jpg
+2025-02-02 21:37:14,023 - INFO - Processed 1 detections for data/images/Chemed/55.jpg
+2025-02-02 21:37:14,024 - INFO - Processing image: data/images/Chemed/53.jpg
+2025-02-02 21:37:14,591 - INFO - Processed 0 detections for data/images/Chemed/53.jpg
+2025-02-02 21:37:14,591 - INFO - Processing image: data/images/Chemed/52.jpg
+2025-02-02 21:37:15,368 - INFO - Processed 4 detections for data/images/Chemed/52.jpg
+2025-02-02 21:37:15,368 - WARNING - Skipping missing image: data/images/Chemed/51.jpg
+2025-02-02 21:37:15,368 - INFO - Processing image: data/images/Chemed/50.jpg
+2025-02-02 21:37:16,073 - INFO - Processed 0 detections for data/images/Chemed/50.jpg
+2025-02-02 21:37:16,074 - INFO - Processing image: data/images/Chemed/49.jpg
+2025-02-02 21:37:16,790 - INFO - Processed 2 detections for data/images/Chemed/49.jpg
+2025-02-02 21:37:16,791 - INFO - Processing image: data/images/Chemed/48.jpg
+2025-02-02 21:37:17,535 - INFO - Processed 1 detections for data/images/Chemed/48.jpg
+2025-02-02 21:37:17,535 - INFO - Processing image: data/images/Chemed/46.jpg
+2025-02-02 21:37:18,268 - INFO - Processed 2 detections for data/images/Chemed/46.jpg
+2025-02-02 21:37:18,269 - INFO - Processing image: data/images/Chemed/45.jpg
+2025-02-02 21:37:18,946 - INFO - Processed 1 detections for data/images/Chemed/45.jpg
+2025-02-02 21:37:18,946 - INFO - Processing image: data/images/Chemed/44.jpg
+2025-02-02 21:37:19,491 - INFO - Processed 2 detections for data/images/Chemed/44.jpg
+2025-02-02 21:37:19,492 - INFO - Processing image: data/images/Chemed/43.jpg
+2025-02-02 21:37:20,202 - INFO - Processed 3 detections for data/images/Chemed/43.jpg
+2025-02-02 21:37:20,203 - INFO - Processing image: data/images/Chemed/41.jpg
+2025-02-02 21:37:20,947 - INFO - Processed 2 detections for data/images/Chemed/41.jpg
+2025-02-02 21:37:20,947 - INFO - Processing image: data/images/Chemed/40.jpg
+2025-02-02 21:37:21,447 - INFO - Processed 7 detections for data/images/Chemed/40.jpg
+2025-02-02 21:37:21,448 - INFO - Processing image: data/images/Chemed/39.jpg
+2025-02-02 21:37:21,947 - INFO - Processed 8 detections for data/images/Chemed/39.jpg
+2025-02-02 21:37:21,948 - INFO - Processing image: data/images/Chemed/38.jpg
+2025-02-02 21:37:22,569 - INFO - Processed 2 detections for data/images/Chemed/38.jpg
+2025-02-02 21:37:22,570 - INFO - Processing image: data/images/Chemed/34.jpg
+2025-02-02 21:37:23,140 - INFO - Processed 0 detections for data/images/Chemed/34.jpg
+2025-02-02 21:37:23,140 - INFO - Processing image: data/images/Chemed/33.jpg
+2025-02-02 21:37:23,836 - INFO - Processed 3 detections for data/images/Chemed/33.jpg
+2025-02-02 21:37:23,836 - INFO - Processing image: data/images/Chemed/32.jpg
+2025-02-02 21:37:24,381 - INFO - Processed 0 detections for data/images/Chemed/32.jpg
+2025-02-02 21:37:24,382 - INFO - Processing image: data/images/Chemed/31.jpg
+2025-02-02 21:37:25,258 - INFO - Processed 10 detections for data/images/Chemed/31.jpg
+2025-02-02 21:37:25,259 - INFO - Processing image: data/images/Chemed/30.jpg
+2025-02-02 21:37:25,948 - INFO - Processed 2 detections for data/images/Chemed/30.jpg
+2025-02-02 21:37:25,949 - INFO - Processing image: data/images/Chemed/29.jpg
+2025-02-02 21:37:26,559 - INFO - Processed 3 detections for data/images/Chemed/29.jpg
+2025-02-02 21:37:26,560 - INFO - Processing image: data/images/Chemed/27.jpg
+2025-02-02 21:37:27,367 - INFO - Processed 0 detections for data/images/Chemed/27.jpg
+2025-02-02 21:37:27,368 - INFO - Processing image: data/images/Chemed/26.jpg
+2025-02-02 21:37:28,015 - INFO - Processed 1 detections for data/images/Chemed/26.jpg
+2025-02-02 21:37:28,015 - INFO - Processing image: data/images/Chemed/25.jpg
+2025-02-02 21:37:28,615 - INFO - Processed 2 detections for data/images/Chemed/25.jpg
+2025-02-02 21:37:28,616 - INFO - Processing image: data/images/Chemed/23.jpg
+2025-02-02 21:37:29,337 - INFO - Processed 0 detections for data/images/Chemed/23.jpg
+2025-02-02 21:37:29,338 - INFO - Processing image: data/images/Chemed/22.jpg
+2025-02-02 21:37:30,093 - INFO - Processed 2 detections for data/images/Chemed/22.jpg
+2025-02-02 21:37:30,093 - INFO - Processing image: data/images/Chemed/21.jpg
+2025-02-02 21:37:30,980 - INFO - Processed 0 detections for data/images/Chemed/21.jpg
+2025-02-02 21:37:30,981 - INFO - Processing image: data/images/Chemed/20.jpg
+2025-02-02 21:37:31,749 - INFO - Processed 5 detections for data/images/Chemed/20.jpg
+2025-02-02 21:37:31,750 - INFO - Processing image: data/images/Chemed/19.jpg
+2025-02-02 21:37:32,427 - INFO - Processed 5 detections for data/images/Chemed/19.jpg
+2025-02-02 21:37:32,427 - INFO - Processing image: data/images/Chemed/18.jpg
+2025-02-02 21:37:33,108 - INFO - Processed 0 detections for data/images/Chemed/18.jpg
+2025-02-02 21:37:33,111 - INFO - Processing image: data/images/Chemed/17.jpg
+2025-02-02 21:37:33,794 - INFO - Processed 10 detections for data/images/Chemed/17.jpg
+2025-02-02 21:37:33,795 - INFO - Processing image: data/images/Chemed/15.jpg
+2025-02-02 21:37:34,450 - INFO - Processed 0 detections for data/images/Chemed/15.jpg
+2025-02-02 21:37:34,480 - INFO - Processing image: data/images/Chemed/14.jpg
+2025-02-02 21:37:34,997 - INFO - Processed 0 detections for data/images/Chemed/14.jpg
+2025-02-02 21:37:34,998 - INFO - Processing image: data/images/Chemed/13.jpg
+2025-02-02 21:37:35,783 - INFO - Processed 8 detections for data/images/Chemed/13.jpg
+2025-02-02 21:37:35,784 - INFO - Processing image: data/images/Chemed/11.jpg
+2025-02-02 21:37:36,436 - INFO - Processed 0 detections for data/images/Chemed/11.jpg
+2025-02-02 21:37:36,436 - INFO - Processing image: data/images/Chemed/10.jpg
+2025-02-02 21:37:37,139 - INFO - Processed 0 detections for data/images/Chemed/10.jpg
+2025-02-02 21:37:37,139 - INFO - Processing image: data/images/Chemed/9.jpg
+2025-02-02 21:37:37,984 - INFO - Processed 11 detections for data/images/Chemed/9.jpg
+2025-02-02 21:37:37,985 - INFO - Processing image: data/images/Chemed/3.jpg
+2025-02-02 21:37:38,645 - INFO - Processed 0 detections for data/images/Chemed/3.jpg
+2025-02-02 21:37:38,646 - INFO - Processing image: data/images/Chemed/2.jpg
+2025-02-02 21:37:39,362 - INFO - Processed 11 detections for data/images/Chemed/2.jpg
+2025-02-02 21:37:39,363 - INFO - Detection completed successfully
+2025-02-02 21:38:10,618 - INFO - Connected to PostgreSQL
+2025-02-02 21:38:10,622 - INFO - Found 72 images to process
+2025-02-02 21:38:10,629 - INFO - Processing image: data/images/Chemed/97.jpg
+2025-02-02 21:38:11,509 - INFO - Processed 0 detections for data/images/Chemed/97.jpg
+2025-02-02 21:38:11,510 - INFO - Processing image: data/images/Chemed/96.jpg
+2025-02-02 21:38:12,322 - INFO - Processed 2 detections for data/images/Chemed/96.jpg
+2025-02-02 21:38:12,323 - INFO - Processing image: data/images/Chemed/95.jpg
+2025-02-02 21:38:13,122 - INFO - Processed 2 detections for data/images/Chemed/95.jpg
+2025-02-02 21:38:13,123 - INFO - Processing image: data/images/Chemed/94.jpg
+2025-02-02 21:38:14,090 - INFO - Processed 5 detections for data/images/Chemed/94.jpg
+2025-02-02 21:38:14,090 - INFO - Processing image: data/images/Chemed/93.jpg
+2025-02-02 21:38:14,945 - INFO - Processed 1 detections for data/images/Chemed/93.jpg
+2025-02-02 21:38:14,946 - INFO - Processing image: data/images/Chemed/92.jpg
+2025-02-02 21:38:15,901 - INFO - Processed 1 detections for data/images/Chemed/92.jpg
+2025-02-02 21:38:15,901 - INFO - Processing image: data/images/Chemed/91.jpg
+2025-02-02 21:38:16,612 - INFO - Processed 0 detections for data/images/Chemed/91.jpg
+2025-02-02 21:38:16,613 - INFO - Processing image: data/images/Chemed/90.jpg
+2025-02-02 21:38:17,448 - INFO - Processed 0 detections for data/images/Chemed/90.jpg
+2025-02-02 21:38:17,492 - ERROR - Error processing data/images/Chemed/89.jpg: cannot identify image file 'data/images/Chemed/89.jpg'
+Traceback (most recent call last):
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/scripts/detect.py", line 51, in detect_objects
+    img = Image.open(image_path)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/PIL/Image.py", line 3532, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file 'data/images/Chemed/89.jpg'
+2025-02-02 21:38:17,494 - INFO - Processing image: data/images/Chemed/88.jpg
+2025-02-02 21:38:18,306 - INFO - Processed 0 detections for data/images/Chemed/88.jpg
+2025-02-02 21:38:18,307 - INFO - Processing image: data/images/Chemed/87.jpg
+2025-02-02 21:38:18,959 - INFO - Processed 0 detections for data/images/Chemed/87.jpg
+2025-02-02 21:38:18,960 - INFO - Processing image: data/images/Chemed/86.jpg
+2025-02-02 21:38:19,702 - INFO - Processed 3 detections for data/images/Chemed/86.jpg
+2025-02-02 21:38:19,703 - INFO - Processing image: data/images/Chemed/85.jpg
+2025-02-02 21:38:20,351 - INFO - Processed 0 detections for data/images/Chemed/85.jpg
+2025-02-02 21:38:20,352 - INFO - Processing image: data/images/Chemed/82.jpg
+2025-02-02 21:38:21,125 - INFO - Processed 4 detections for data/images/Chemed/82.jpg
+2025-02-02 21:38:21,125 - INFO - Processing image: data/images/Chemed/81.jpg
+2025-02-02 21:38:21,847 - INFO - Processed 5 detections for data/images/Chemed/81.jpg
+2025-02-02 21:38:21,848 - INFO - Processing image: data/images/Chemed/80.jpg
+2025-02-02 21:38:22,414 - INFO - Processed 3 detections for data/images/Chemed/80.jpg
+2025-02-02 21:38:22,414 - INFO - Processing image: data/images/Chemed/79.jpg
+2025-02-02 21:38:23,157 - INFO - Processed 0 detections for data/images/Chemed/79.jpg
+2025-02-02 21:38:23,158 - INFO - Processing image: data/images/Chemed/78.jpg
+2025-02-02 21:38:23,914 - INFO - Processed 3 detections for data/images/Chemed/78.jpg
+2025-02-02 21:38:23,915 - INFO - Processing image: data/images/Chemed/77.jpg
+2025-02-02 21:38:24,648 - INFO - Processed 5 detections for data/images/Chemed/77.jpg
+2025-02-02 21:38:24,649 - INFO - Processing image: data/images/Chemed/76.jpg
+2025-02-02 21:38:25,281 - INFO - Processed 2 detections for data/images/Chemed/76.jpg
+2025-02-02 21:38:25,282 - INFO - Processing image: data/images/Chemed/75.jpg
+2025-02-02 21:38:26,215 - INFO - Processed 1 detections for data/images/Chemed/75.jpg
+2025-02-02 21:38:26,216 - INFO - Processing image: data/images/Chemed/74.jpg
+2025-02-02 21:38:26,857 - INFO - Processed 0 detections for data/images/Chemed/74.jpg
+2025-02-02 21:38:26,858 - ERROR - Error processing data/images/Chemed/73.jpg: cannot identify image file 'data/images/Chemed/73.jpg'
+Traceback (most recent call last):
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/scripts/detect.py", line 51, in detect_objects
+    img = Image.open(image_path)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/PIL/Image.py", line 3532, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file 'data/images/Chemed/73.jpg'
+2025-02-02 21:38:26,858 - INFO - Processing image: data/images/Chemed/71.jpg
+2025-02-02 21:38:27,293 - INFO - Processed 3 detections for data/images/Chemed/71.jpg
+2025-02-02 21:38:27,293 - INFO - Processing image: data/images/Chemed/70.jpg
+2025-02-02 21:38:27,771 - INFO - Processed 4 detections for data/images/Chemed/70.jpg
+2025-02-02 21:38:27,771 - INFO - Processing image: data/images/Chemed/67.jpg
+2025-02-02 21:38:28,471 - INFO - Processed 1 detections for data/images/Chemed/67.jpg
+2025-02-02 21:38:28,471 - INFO - Processing image: data/images/Chemed/64.jpg
+2025-02-02 21:38:29,471 - INFO - Processed 2 detections for data/images/Chemed/64.jpg
+2025-02-02 21:38:29,472 - ERROR - Error processing data/images/Chemed/62.jpg: cannot identify image file 'data/images/Chemed/62.jpg'
+Traceback (most recent call last):
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/scripts/detect.py", line 51, in detect_objects
+    img = Image.open(image_path)
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/olana/Desktop/D/KAIM 3/Week 7/EthMedWarehouse/venv/lib/python3.12/site-packages/PIL/Image.py", line 3532, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file 'data/images/Chemed/62.jpg'
+2025-02-02 21:38:29,472 - INFO - Processing image: data/images/Chemed/60.jpg
+2025-02-02 21:38:30,405 - INFO - Processed 0 detections for data/images/Chemed/60.jpg
+2025-02-02 21:38:30,405 - INFO - Processing image: data/images/Chemed/59.jpg
+2025-02-02 21:38:31,249 - INFO - Processed 1 detections for data/images/Chemed/59.jpg
+2025-02-02 21:38:31,249 - INFO - Processing image: data/images/Chemed/58.jpg
+2025-02-02 21:38:32,161 - INFO - Processed 12 detections for data/images/Chemed/58.jpg
+2025-02-02 21:38:32,162 - INFO - Processing image: data/images/Chemed/57.jpg
+2025-02-02 21:38:32,727 - INFO - Processed 6 detections for data/images/Chemed/57.jpg
+2025-02-02 21:38:32,728 - INFO - Processing image: data/images/Chemed/56.jpg
+2025-02-02 21:38:33,460 - INFO - Processed 1 detections for data/images/Chemed/56.jpg
+2025-02-02 21:38:33,461 - INFO - Processing image: data/images/Chemed/55.jpg
+2025-02-02 21:38:34,149 - INFO - Processed 1 detections for data/images/Chemed/55.jpg
+2025-02-02 21:38:34,150 - INFO - Processing image: data/images/Chemed/53.jpg
+2025-02-02 21:38:34,702 - INFO - Processed 0 detections for data/images/Chemed/53.jpg
+2025-02-02 21:38:34,702 - INFO - Processing image: data/images/Chemed/52.jpg
+2025-02-02 21:38:35,439 - INFO - Processed 4 detections for data/images/Chemed/52.jpg
+2025-02-02 21:38:35,439 - WARNING - Skipping missing image: data/images/Chemed/51.jpg
+2025-02-02 21:38:35,439 - INFO - Processing image: data/images/Chemed/50.jpg
+2025-02-02 21:38:36,298 - INFO - Processed 0 detections for data/images/Chemed/50.jpg
+2025-02-02 21:38:36,299 - INFO - Processing image: data/images/Chemed/49.jpg
+2025-02-02 21:38:37,005 - INFO - Processed 2 detections for data/images/Chemed/49.jpg
+2025-02-02 21:38:37,006 - INFO - Processing image: data/images/Chemed/48.jpg
+2025-02-02 21:38:37,997 - INFO - Processed 1 detections for data/images/Chemed/48.jpg
+2025-02-02 21:38:37,997 - INFO - Processing image: data/images/Chemed/46.jpg
+2025-02-02 21:38:38,684 - INFO - Processed 2 detections for data/images/Chemed/46.jpg
+2025-02-02 21:38:38,685 - INFO - Processing image: data/images/Chemed/45.jpg
+2025-02-02 21:38:39,506 - INFO - Processed 1 detections for data/images/Chemed/45.jpg
+2025-02-02 21:38:39,506 - INFO - Processing image: data/images/Chemed/44.jpg
+2025-02-02 21:38:40,006 - INFO - Processed 2 detections for data/images/Chemed/44.jpg
+2025-02-02 21:38:40,007 - INFO - Processing image: data/images/Chemed/43.jpg
+2025-02-02 21:38:40,740 - INFO - Processed 3 detections for data/images/Chemed/43.jpg
+2025-02-02 21:38:40,740 - INFO - Processing image: data/images/Chemed/41.jpg
+2025-02-02 21:38:41,640 - INFO - Processed 2 detections for data/images/Chemed/41.jpg
+2025-02-02 21:38:41,640 - INFO - Processing image: data/images/Chemed/40.jpg
+2025-02-02 21:38:42,129 - INFO - Processed 7 detections for data/images/Chemed/40.jpg
+2025-02-02 21:38:42,130 - INFO - Processing image: data/images/Chemed/39.jpg
+2025-02-02 21:38:42,774 - INFO - Processed 8 detections for data/images/Chemed/39.jpg
+2025-02-02 21:38:42,775 - INFO - Processing image: data/images/Chemed/38.jpg
+2025-02-02 21:38:43,418 - INFO - Processed 2 detections for data/images/Chemed/38.jpg
+2025-02-02 21:38:43,419 - INFO - Processing image: data/images/Chemed/34.jpg
+2025-02-02 21:38:43,976 - INFO - Processed 0 detections for data/images/Chemed/34.jpg
+2025-02-02 21:38:43,977 - INFO - Processing image: data/images/Chemed/33.jpg
+2025-02-02 21:38:44,618 - INFO - Processed 3 detections for data/images/Chemed/33.jpg
+2025-02-02 21:38:44,619 - INFO - Processing image: data/images/Chemed/32.jpg
+2025-02-02 21:38:45,195 - INFO - Processed 0 detections for data/images/Chemed/32.jpg
+2025-02-02 21:38:45,196 - INFO - Processing image: data/images/Chemed/31.jpg
+2025-02-02 21:38:45,974 - INFO - Processed 10 detections for data/images/Chemed/31.jpg
+2025-02-02 21:38:45,976 - INFO - Processing image: data/images/Chemed/30.jpg
+2025-02-02 21:38:46,629 - INFO - Processed 2 detections for data/images/Chemed/30.jpg
+2025-02-02 21:38:46,630 - INFO - Processing image: data/images/Chemed/29.jpg
+2025-02-02 21:38:47,196 - INFO - Processed 3 detections for data/images/Chemed/29.jpg
+2025-02-02 21:38:47,197 - INFO - Processing image: data/images/Chemed/27.jpg
+2025-02-02 21:38:47,769 - INFO - Processed 0 detections for data/images/Chemed/27.jpg
+2025-02-02 21:38:47,769 - INFO - Processing image: data/images/Chemed/26.jpg
+2025-02-02 21:38:48,363 - INFO - Processed 1 detections for data/images/Chemed/26.jpg
+2025-02-02 21:38:48,364 - INFO - Processing image: data/images/Chemed/25.jpg
+2025-02-02 21:38:48,941 - INFO - Processed 2 detections for data/images/Chemed/25.jpg
+2025-02-02 21:38:48,941 - INFO - Processing image: data/images/Chemed/23.jpg
+2025-02-02 21:38:49,491 - INFO - Processed 0 detections for data/images/Chemed/23.jpg
+2025-02-02 21:38:49,491 - INFO - Processing image: data/images/Chemed/22.jpg
+2025-02-02 21:38:50,153 - INFO - Processed 2 detections for data/images/Chemed/22.jpg
+2025-02-02 21:38:50,153 - INFO - Processing image: data/images/Chemed/21.jpg
+2025-02-02 21:38:50,849 - INFO - Processed 0 detections for data/images/Chemed/21.jpg
+2025-02-02 21:38:50,850 - INFO - Processing image: data/images/Chemed/20.jpg
+2025-02-02 21:38:51,608 - INFO - Processed 5 detections for data/images/Chemed/20.jpg
+2025-02-02 21:38:51,609 - INFO - Processing image: data/images/Chemed/19.jpg
+2025-02-02 21:38:52,242 - INFO - Processed 5 detections for data/images/Chemed/19.jpg
+2025-02-02 21:38:52,243 - INFO - Processing image: data/images/Chemed/18.jpg
+2025-02-02 21:38:52,810 - INFO - Processed 0 detections for data/images/Chemed/18.jpg
+2025-02-02 21:38:52,811 - INFO - Processing image: data/images/Chemed/17.jpg
+2025-02-02 21:38:53,487 - INFO - Processed 10 detections for data/images/Chemed/17.jpg
+2025-02-02 21:38:53,488 - INFO - Processing image: data/images/Chemed/15.jpg
+2025-02-02 21:38:54,318 - INFO - Processed 0 detections for data/images/Chemed/15.jpg
+2025-02-02 21:38:54,319 - INFO - Processing image: data/images/Chemed/14.jpg
+2025-02-02 21:38:54,820 - INFO - Processed 0 detections for data/images/Chemed/14.jpg
+2025-02-02 21:38:54,821 - INFO - Processing image: data/images/Chemed/13.jpg
+2025-02-02 21:38:56,264 - INFO - Processed 8 detections for data/images/Chemed/13.jpg
+2025-02-02 21:38:56,265 - INFO - Processing image: data/images/Chemed/11.jpg
+2025-02-02 21:38:56,938 - INFO - Processed 0 detections for data/images/Chemed/11.jpg
+2025-02-02 21:38:56,938 - INFO - Processing image: data/images/Chemed/10.jpg
+2025-02-02 21:38:57,585 - INFO - Processed 0 detections for data/images/Chemed/10.jpg
+2025-02-02 21:38:57,585 - INFO - Processing image: data/images/Chemed/9.jpg
+2025-02-02 21:38:58,366 - INFO - Processed 11 detections for data/images/Chemed/9.jpg
+2025-02-02 21:38:58,367 - INFO - Processing image: data/images/Chemed/3.jpg
+2025-02-02 21:38:59,198 - INFO - Processed 0 detections for data/images/Chemed/3.jpg
+2025-02-02 21:38:59,198 - INFO - Processing image: data/images/Chemed/2.jpg
+2025-02-02 21:38:59,933 - INFO - Processed 11 detections for data/images/Chemed/2.jpg
+2025-02-02 21:38:59,933 - INFO - Detection completed successfully

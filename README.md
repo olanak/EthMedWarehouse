@@ -96,13 +96,13 @@ api	            FastAPI endpoints to query cleaned data and detection results.
 docs	            Schema diagrams and project documentation.
 
 ## 📅 Roadmap
--**Real-Time Alerts**: Slack/email notifications for high-confidence detections.
--**Geospatial Analytics**: Integrate PostGIS for location-based insights.
--**User Authentication**: Add OAuth2 to FastAPI endpoints.
--**Dashboard**: Build a Power BI/Tableau dashboard for business users.
+- **Real-Time Alerts**: Slack/email notifications for high-confidence detections.
+- **Geospatial Analytics**: Integrate PostGIS for location-based insights.
+- **User Authentication**: Add OAuth2 to FastAPI endpoints.
+- **Dashboard**: Build a Power BI/Tableau dashboard for business users.
 
 ## 🤝 Contributing
-1. Fork the repository.
+1. Fork the repository. 
 2. Create a feature branch (git checkout -b feature/your-feature).
 3. Commit changes (git commit -m 'Add your feature').
 4. Push to the branch (git push origin feature/your-feature).

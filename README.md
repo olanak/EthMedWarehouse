@@ -48,9 +48,9 @@ A scalable data pipeline to collect, clean, and analyze Ethiopian medical busine
       DB_PORT=5432
       DB_NAME=ethio_medical
       DB_USER=postgres
-     DB_PASSWORD=your_password
+      DB_PASSWORD=your_password
     ```
-  **Database Setup**
+  ## Database Setup
    **Run the PostgreSQL setup scripts**:
  ```bash
         -- Create raw tables

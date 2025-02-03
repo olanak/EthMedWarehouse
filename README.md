@@ -65,7 +65,7 @@ CREATE TABLE dim_product (...);
 ## 🖥️ Usage
 1. **Scrape Data**:
     ```bash
-   python data_scraping/scraper.py
+   python scripts/scraper.py
     ```
 2. **Clean Data with DBT**:
     ```bash
@@ -75,7 +75,7 @@ CREATE TABLE dim_product (...);
     ```
 3. **Run Object Detection**:
    ```bash
-   python object_detection/detect.py
+   python scripts/detect.py
    ```
 4. **Start FastAPI Server**:
     ```bash

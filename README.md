@@ -84,11 +84,16 @@ CREATE TABLE dim_product (...);
 ## 📊 Project Structure Details
 
    Directory	              Purpose
+   
 data_scraping	      Scripts to scrape Telegram channels and store raw data.
+
 data_cleaning        DBT models for data transformation and quality checks.
+
 object_detection	   YOLOv5 scripts to detect medical products in images.
-    api	            FastAPI endpoints to query cleaned data and detection results.
-   docs	            Schema diagrams and project documentation.
+
+api	            FastAPI endpoints to query cleaned data and detection results.
+
+docs	            Schema diagrams and project documentation.
 
 ## 📅 Roadmap
 -**Real-Time Alerts**: Slack/email notifications for high-confidence detections.
